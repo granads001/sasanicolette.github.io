@@ -591,6 +591,12 @@ main {
         flex-direction: row;
         justify-content: flex-end;
     }
+    
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+   
 
     main section article a {
         /*        text-align: center;*/
