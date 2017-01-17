@@ -585,7 +585,7 @@ main {
     padding-top: 0;
     margin-top: 0.1 em;
 }
-@media all and (max-width: 1100px) {
+@media all and (max-width: 1020px) {
     main article div {
         display: inline-flex;
         flex-direction: row;
