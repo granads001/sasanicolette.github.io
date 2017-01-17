@@ -505,7 +505,8 @@ section article {
     color: #bbb;
     font-size: 1.5rem;
     height: atuo;
-    overflow: scroll;
+    overflow: hidden;
+    justify-content:center;
 }
 article time {
     background: #fff;
