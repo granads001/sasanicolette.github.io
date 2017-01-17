@@ -411,15 +411,14 @@ fieldset button {
     border-radius: 1px;
     box-shadow: 5px 5px 5px #d3d4d4;
     color: #005184;
-    /*    font-size: 1vmin;*/
+
     font-size: 85%;
     padding: 5em;
     float: right;
     right: 30px;
     line-height: 0px;
     padding: 3% 0;
-    float: right;
-    right: 30px;
+
     margin: 1em;
 }
 
