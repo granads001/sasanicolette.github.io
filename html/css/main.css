@@ -99,7 +99,7 @@ input[type="text"]:focus:hover {
 }
 
 input[type="text"]:focus {
-    width: 1000px;
+    width: 300px;
     z-index: 1;
     border: 1px solid #BBB;
     cursor: text;
