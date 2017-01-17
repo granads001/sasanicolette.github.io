@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <link rel="stylesheet" href="css/main.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Storseas</title>
+</head>
+
+
+<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+<!--zoekbalk-->
+
+
+<body>
+
+
+
+    <header>
+
+
+
+        <img src=plaatjes/Dfds_2015_logo.svg.png>
+        <form action="" autocomplete="on">
+            <input id="search" name="search" type="text" placeholder="Wat zoek je ? fictie, drama etc">
+            <input id="search_submit" type="submit">
+        </form>
+
+
+        <!--http://codepen.io/CBeghin/pen/HeuiF-->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Aanmelden/Registreren</a></li>
+
+            </ul>
+        </nav>
+
+    </header>
+
+
+
+
+
+    <!--STEP 1------------------------------------------------------------------------------------------------>
+
+    <main>
+
+        <div class="image">
+            <img class='lezen' src="plaatjes/sfeerfoto1.jpg" alt="" />
+            <h1> <span>Wherever we go, we start with you</span></h1>
+        </div>
+
+
+        <article>
+            <h2>Step 1: How much time do you have? </h2>
+
+            <!--  http://webtutsdepot.com/2010/04/24/html-5-slider-input-tutorial/-->
+
+            <input placeholder="Step 1" type="range" min="0" max="120" value="0" step="5" onchange="showValue(this.value)" />
+            <span id="range">0</span>
+        </article>
+
+        <!--STEP 2------------------------------------------------------------------------------------------------>
+
+        <article>
+
+            <h2>Step 2: Welke genre's spreken mij aan? </h2>
+
+            <form action="">
+                <button>ACTIE</button>
+                <button>DRAMA</button>
+                <button>KOMEDIE</button>
+                <button>ROMANCE</button>
+                <button>FICTIE</button>
+                <button>MISDAAD</button>
+                <button>TRENDING</button>
+                <button>NIEUW</button>
+            </form>
+        </article>
+
+
+
+
+        <!--STEP 3------------------------------------------------------------------------------------------------>
+
+
+        <h2>Step 3: Choose your story! </h2>
+
+
+
+
+        <article>
+            <img src="http://lorempixel.com/40/40/sports/" alt="user">
+            <a href="#">Web Design</a>
+            <time>17th March</time>
+
+
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus harum...</p>
+
+
+            <a href="#">By John Doe</a>
+            <h3>
+                        <i></i>
+                        <span class="like">liked!</span>
+
+                        <p >
+                            <a href="detailpagina.html">lees meer</a>
+                        </p>
+
+                    </h3>
+
+        </article>
+
+
+
+
+        <article>
+            <img src="http://lorempixel.com/40/40/sports/" alt="user">
+            <a href="#">Web Design</a>
+            <time>17th March</time>
+
+
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus harum...</p>
+
+
+            <a href="#">By John Doe</a>
+            <h3>
+                        <i></i>
+                        <span class="like">liked!</span>
+
+                        <p >
+                            <a href="detailpagina.html">lees meer</a>
+                        </p>
+
+                    </h3>
+
+        </article>
+
+
+        <article>
+            <img src="http://lorempixel.com/40/40/sports/" alt="user">
+            <a href="#">Web Design</a>
+            <time>17th March</time>
+
+
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus harum...</p>
+
+
+            <a href="#">By John Doe</a>
+            <h3>
+                        <i></i>
+                        <span class="like">liked!</span>
+
+                        <p >
+                            <a href="detailpagina.html">lees meer</a>
+                        </p>
+
+                    </h3>
+
+        </article>
+
+        <article>
+            <img src="http://lorempixel.com/40/40/sports/" alt="user">
+            <a href="#">Web Design</a>
+            <time>17th March</time>
+
+
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus harum...</p>
+
+
+            <a href="#">By John Doe</a>
+            <h3>
+                        <i></i>
+                        <span class="like">liked!</span>
+
+                        <p >
+                            <a href="detailpagina.html">lees meer</a>
+                        </p>
+
+                    </h3>
+
+        </article>
+
+        <article>
+            <img src="http://lorempixel.com/40/40/sports/" alt="user">
+            <a href="#">Web Design</a>
+            <time>17th March</time>
+
+
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus harum...</p>
+
+
+            <a href="#">By John Doe</a>
+            <h3>
+                        <i></i>
+                        <span class="like">liked!</span>
+
+                        <p >
+                            <a href="detailpagina.html">lees meer</a>
+                        </p>
+
+                    </h3>
+
+        </article>
+
+        <article>
+            <img src="http://lorempixel.com/40/40/sports/" alt="user">
+            <a href="#">Web Design</a>
+            <time>17th March</time>
+
+
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus harum...</p>
+
+
+            <a href="#">By John Doe</a>
+            <h3>
+                        <i></i>
+                        <span class="like">liked!</span>
+
+                        <p >
+                            <a href="detailpagina.html">lees meer</a>
+                        </p>
+
+                    </h3>
+
+        </article>
+
+    </main>
+
+
+
+    <footer>
+        <h7>Follow us!</h7>
+        <div class="social"><img src="plaatjes/facebook.png" alt=""></div>
+        <div class="social"><img src="plaatjes/in.png" alt=""></div>
+        <div class="social"><img src="plaatjes/instagram.png" alt=""></div>
+        <div class="social"><img src="plaatjes/pinterest.png" alt=""></div>
+        <div class="social"><img src="plaatjes/twitter.png" alt=""></div>
+        <div class="social"><img src="plaatjes/youtube.png" alt=""></div>
+
+    </footer>
+
+
+
+
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
