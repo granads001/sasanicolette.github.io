@@ -265,7 +265,7 @@ main #main nav p {
     }
     #main > article {
         margin: 4px;
-        padding: 4px;
+        padding: 3px;
         background: white;
         flex: 3 1 60%;
         -webkit-order: 2;
