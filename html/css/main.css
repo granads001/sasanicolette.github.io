@@ -179,8 +179,9 @@ ul li {
 
 #main {
     min-height: 800px;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
+    padding-top: -2em;
     display: -webkit-flex;
     display: flex;
     -webkit-flex-flow: row;
