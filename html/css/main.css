@@ -219,7 +219,7 @@ main #main nav p {
     text-align: center;
     list-style: none;
     text-decoration: none;
-       margin: 0;
+       margin: 1em auto;
 }
 
 #main nav h2 {
