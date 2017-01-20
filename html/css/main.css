@@ -179,7 +179,7 @@ ul li {
     display: inline-flex;
     flex-flow: row;
     margin-bottom: 0.3em;
-    padding: 0.5em;
+    /*    padding: 0.5em;*/
     margin-top: 0;
     width: auto;
     top: 0;
@@ -225,6 +225,7 @@ body main .image fieldset {
     flex-direction: row;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 1em;
 }
 
 
