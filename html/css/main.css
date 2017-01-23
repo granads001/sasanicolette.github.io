@@ -20,6 +20,7 @@ body {
 /*range*/
 
 .slider {
+    padding-top: 2em;
     width: 90%;
     margin: 2.3% auto;
 }
@@ -166,20 +167,17 @@ ul li {
 
 .lezen {
     width: 50%;
-    height: 20em;
+    height: 40%;
     /*    max-width: 120rem;*/
 }
 
 .image fieldset h2 {
     background-image: url(plaatjes/banner.svg);
     font-family: 'dfds-bold';
-    font-weight: 50;
-    font-size: 3.0vmin;
+    font-size: 5.0vmin;
     color: white;
     display: inline-flex;
     flex-flow: row;
-    margin-bottom: 0.3em;
-
     margin-top: 0;
     width: auto;
     top: 0;
@@ -192,11 +190,8 @@ body main .image fieldset {
     border: none;
     background-color: white;
     font-family: "Helvetica";
-    /*    margin-left: 0.5em;*/
-    /*    margin-right: 0.5em;*/
     font-size: 1.5rem;
     overflow: scroll;
-    /*    height: auto;*/
     overflow-y: auto;
     align-items: baseline;
     padding: 0;
@@ -285,7 +280,7 @@ main #main nav p {
 
 /*ipad*/
 
-@media only screen and (min-device-width: 768px) {
+@media only screen and (min-device-width: 48.000em) {
     /* STYLES GO HERE */
     #main nav h3,
     #main nav h2 {
@@ -296,14 +291,14 @@ main #main nav p {
 
 /*iphone*/
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
+@media only screen and (min-device-width: 23.438em) and (max-device-width: 41.688em) and (orientation: portrait) {
     /* STYLES GO HERE */
 }
 
 
 /* Too narrow to support three columns */
 
-@media all and (max-width: 1500px) {
+@media all and (max-width: 93.750em) {
     #main,
     #page {
         -webkit-flex-flow: column;
@@ -376,19 +371,15 @@ header form {
 main section h2 {
     background: ('banner.svg') no-repeat top left;
     font-family: 'dfds-bold';
-    /*    font-weight: 50;*/
-    /*    font-size: 3.3vmin;*/
     color: white;
     align-content: flex-start;
-    display: inline-flex;
+    /*    display: inline-flex;*/
     flex-flow: row;
     margin-bottom: 0.3em;
     margin-bottom: 0;
-    /*    padding: 0.5em;*/
     margin-top: 0;
     flex-flow: row;
-    width: 70%;
-    /*    margin-right: 30em;*/
+    width: 50%;
     top: 0;
 }
 
@@ -600,19 +591,41 @@ article h3 p {
 article h3 {
     margin: 0;
 }
-article p,
-fieldset p {
-    color: #545454;
-    font-family: "segoeui";
-    font-size: 2.4vmin;
-    word-break: keep-all;
-    text-decoration: none;
-    align-content: center;
-    width: auto;
-    overflow: hidden;
-    margin: 0;
-    text-align: center;
-    padding-top: 0.2em;
+@media all and (min-width: 106.125em) {
+    main fieldset p {
+        color: #545454;
+        font-family: "segoeui";
+        font-size: 2.4vmin;
+        word-break: keep-all;
+        text-decoration: none;
+        align-content: center;
+        width: auto;
+        overflow: hidden;
+        margin: 0;
+        text-align: center;
+        padding-top: 2.2em;
+    }
+}
+@media all and (max-width: 106.125em) {
+    .slider {
+        padding-top: 0;
+        width: 90%;
+        /*        margin: 2.3% auto;*/
+    }
+
+    fieldset p {
+        color: #545454;
+        font-family: "segoeui";
+        font-size: 2.4vmin;
+        word-break: keep-all;
+        text-decoration: none;
+        align-content: center;
+        width: auto;
+        overflow: hidden;
+        margin: 1em;
+        text-align: center;
+        padding-top: 0;
+    }
 }
 article time {
     background: #fff;
@@ -631,7 +644,7 @@ main {
     margin: 0;
     /*     margin-top: 0.1 em; */
 }
-@media all and (max-width: 1020px) {
+@media all and (max-width: 63.750em) {
     main article div {
         display: inline-flex;
         flex-direction: row;
@@ -675,29 +688,6 @@ main {
         width: 100%;
         overflow-x: hidden;
     }
-    /*
-    section article {
-        background-color: white;
-        border: solid;
-        border-color: #d3d4d4;
-        border-radius: 1px;
-        border-width: 1px;
-        box-shadow: 5px 5px 5px #d3d4d4;
-        font-family: "Helvetica";
-        display: inline-block;
-        flex-flow: row;
-        animation: roll 3s;
-        animation-iteration-count: 1;
-        width: 80em;
-        margin-top: 0.5em;
-        margin-left: 0.5em;
-        margin-right: 0.5em;
-        color: #bbb;
-        font-size: 1.5rem;
-        height: auto;
-        overflow: scroll;
-    }
-*/
 
     main section article img {
         display: flex;
@@ -723,6 +713,10 @@ main {
     main section h2 {
         width: 50%;
         font-size: 5.3vmin;
+        position: relative;
+        top: 0;
+        left: 0;
+        height: %;
     }
 
     main fieldset h2,
@@ -740,7 +734,7 @@ main {
         left: 0;
     }
 }
-@media all and (max-width: 950px) {
+@media all and (max-width: 85.625em) {
     fieldset,
     fieldset:nth-child(-n+3) {
         border: none;
@@ -756,23 +750,21 @@ main {
         overflow-x: hidden;
         ;
     }
-    /*
+
     .image fieldset h2 {
-        background-image: url(plaatjes/banner.svg);
+        background: url(banner.svg) no-repeat top left;
         font-family: 'dfds-bold';
         font-weight: 50;
-        font-size: 3.0vmin;
+        font-size: 3.3vmin;
         color: white;
-        display: inline-flex;
         flex-flow: row;
         margin-bottom: 0.3em;
-        padding: 0.5em;
+        margin-bottom: 0;
         margin-top: 0;
-        width: 400%;
+        flex-flow: row;
+        width: 55%;
         top: 0;
-        align-items: stretch;
     }
-*/
 
     .image {
         /* position: relative; */
@@ -786,7 +778,7 @@ main {
 
     .lezen {
         width: 100%;
-        height: 20em;
+        height: auto;
         /* max-width: 120rem; */
     }
 
@@ -836,6 +828,48 @@ main {
         margin-left: 1em;
         text-align: center;
         color: #b3cbda;
+    }
+}
+@media all and (max-width: 93.750em) {
+    section article {
+        background-color: white;
+        border: solid;
+        border-color: #d3d4d4;
+        border-radius: 1px;
+        border-width: 1px;
+        box-shadow: 5px 5px 5px #d3d4d4;
+        font-family: "Helvetica";
+        display: inline-block;
+        flex-flow: row;
+        width: 40%;
+    }
+
+    section:nth-child(n+2) {
+        background-color: white;
+        font-family: "Helvetica";
+        margin: 0.8em;
+        text-align: center;
+    }
+}
+@media all and (max-width: 63.875em) {
+    section article {
+        background-color: white;
+        border: solid;
+        border-color: #d3d4d4;
+        border-radius: 1px;
+        border-width: 1px;
+        box-shadow: 5px 5px 5px #d3d4d4;
+        font-family: "Helvetica";
+        display: inline-block;
+        flex-flow: column;
+        width: 100%;
+    }
+
+    section {
+        background-color: white;
+        font-family: "Helvetica";
+        margin: 0.8em;
+        text-align: center;
     }
 }
 
