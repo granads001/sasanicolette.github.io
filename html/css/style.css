@@ -343,6 +343,23 @@ input:focus {
 
 fieldset {
     border: none;
+      width: 50%;
+    background-color: #f68620;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 14px 0;
+    border-radius: 2px;
+    text-transform: uppercase;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0px;
+    bottom: 0px;
+    text-align: center;
     text-align: center;
 }
 
