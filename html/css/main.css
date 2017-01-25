@@ -323,7 +323,7 @@ main #main nav p {
     }
 
     #main > nav {
-        margin-top: 10%;
+        
         padding: 5px;
         background: white;
         flex: 1 6 20%;
