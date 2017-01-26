@@ -506,7 +506,7 @@ fieldset > input[type=checkbox]:checked ~ div span {
     padding: 1em;
 }
 fieldset input[type=checkbox]:checked + label {
-    background: #3e8e41;
+    background: #f68620;
     opacity: 0.2%;
     ;
 }
