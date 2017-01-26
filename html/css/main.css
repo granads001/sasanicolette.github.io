@@ -494,10 +494,10 @@ main button {
     padding: 2% 0;
     margin: 1em;
 }
-label:hover {
+/* label:hover {
     background-color: #85BCE9;
     color: white;
-}
+} */
 checked fieldset > input[type=checkbox]:checked ~ div {
     background: hsla(120, 80%, 50%, .8);
 }
