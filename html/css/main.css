@@ -630,7 +630,7 @@ article h3 {
     margin: 0;
 }
 @media all and (min-width: 106.125em) {
-    main fieldset p {
+    main fieldset p, section article p {
         color: #545454;
         font-family: "segoeui";
         font-size: 2.4vmin;
@@ -650,7 +650,7 @@ article h3 {
         width: 90%;
         /*        margin: 2.3% auto;*/
     }
-    fieldset p {
+    fieldset p, section article p {
         color: #545454;
         font-family: "segoeui";
         font-size: 2.4vmin;
