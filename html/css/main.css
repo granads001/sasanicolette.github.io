@@ -453,7 +453,7 @@ fieldset label {
     border-width: 1px;
     box-shadow: 5px 5px 5px #d3d4d4;
     margin: 1.5em;
-    color: #b3cbda;
+    color: white;
 }
 @media all and (max-width:81.875em) {
     fieldset label {
