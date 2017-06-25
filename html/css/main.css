@@ -334,7 +334,7 @@ main #main nav p {
         max-width: 100%;
         display: inline-flex;
         flex-direction: row;
-        height:0.01em;
+        height:auto;
     }
 }
 h1 {
