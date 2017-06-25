@@ -148,7 +148,7 @@ nav {
 nav ul li a,
 ul li {
     list-style-type: none;
-    color: #85BCE9;
+    color: ##222;
     display: inline-flex;
     font-family: 'dfds-bold';
     flex-direction: row;
@@ -161,6 +161,7 @@ ul li {
     color: #85BCE9;
     text-decoration: none;
         font-size: 1rem;
+    lein-height: 1;
 }
 
 
