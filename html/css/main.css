@@ -672,7 +672,7 @@ article h3 {
 main {
     background-color: #ffffff;
     padding-top: 0;
-    margin: auto;
+    margin: 1em auto;
      width: 95%;
     /*     margin-top: 0.1 em; */
 }
