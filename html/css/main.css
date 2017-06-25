@@ -572,16 +572,15 @@ section article {
     justify-content: center;
 }
 article time {
-    background: #fff;
-    box-shadow: 0 0 2px rgba(0,
-    0,
-    0,
-    0.06);
-    color: #545454;
-    font-family: "Helvetica Neue",
+  
+    color: #6888ad;
+    font-family: "Palanquin",
     Helvetica,
     Arial,
     sans-serif;
+     letter-spacing: .3px;
+    line-height: 20px;
+    font-size: 14px;
     font-size: 2.0vh;
     word-break: break-all;
     padding: 1em;
@@ -666,22 +665,7 @@ article h3 {
         padding-top: 0;
     }
 }
-article time {
-    background: #fff;
-    box-shadow: 0 0 2px rgba(0,
-    0,
-    0,
-    0.06);
-    color: #545454;
-    font-family: "Helvetica Neue",
-    Helvetica,
-    Arial,
-    sans-serif;
-    font-size: 2.0vh;
-    word-break: break-all;
-    padding: 1em;
-    justify-content: flex-end;
-}
+
 main {
     background-color: #ffffff;
     padding-top: 0;
