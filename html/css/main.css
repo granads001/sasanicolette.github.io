@@ -156,7 +156,7 @@ ul li {
     text-align: center;
     justify-content: flex-end;
     list-style: none;
-    list-style: none;
+    font-weight:100;
     list-style-type: none;
     color: #85BCE9;
     text-decoration: none;
