@@ -849,6 +849,9 @@ main {
         text-align: center;
         color: #b3cbda;
     }
+    main fieldset {
+        display:flex; }
+    
 }
 @media all and (max-width: 93.750em) {
     section article {
