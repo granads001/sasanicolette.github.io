@@ -136,7 +136,7 @@ input[type="submit"]:hover {
 nav {
     background-color: white;
     list-style: none;
-    border-top: 0.2em solid #fafafa;
+    border: 0.2em solid #fafafa;
 ;
     list-style: none;
     list-style-type: none;
