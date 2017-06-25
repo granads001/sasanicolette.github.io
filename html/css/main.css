@@ -137,12 +137,10 @@ nav {
     background-color: white;
     list-style: none;
     border: 0.2em solid #fafafa;
-;
     list-style: none;
     list-style-type: none;
     font-family: 'helvetica';
     flex-direction: row;
-  
     text-decoration: none;
 }
 
