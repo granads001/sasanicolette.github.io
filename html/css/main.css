@@ -530,6 +530,8 @@ section {
     background-color: white;
     font-family: "Helvetica";
     margin: 0.8em;
+    width:100%;
+    border-top:1em solid #fafafa;
 }
 main fieldset:nth-child(2) {
     display: inline-flex;
