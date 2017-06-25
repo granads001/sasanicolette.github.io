@@ -150,7 +150,7 @@ ul li {
     list-style-type: none;
     color: #85BCE9;
     display: inline-flex;
-    font-family: 'helvetica';
+    font-family: 'dfds-bold';
     flex-direction: row;
     padding-left: 1em;
     text-align: center;
@@ -160,6 +160,7 @@ ul li {
     list-style-type: none;
     color: #85BCE9;
     text-decoration: none;
+        font-size: 1rem;
 }
 
 
