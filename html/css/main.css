@@ -697,9 +697,10 @@ main {
         height: 4em;
     }
     main {
-        background-color: #eaedee;
-        padding-top: 0;
-        margin-top: 1em;
+           background-color: #ffffff;
+    padding-top: 0;
+    margin: 1em auto;
+    width: 95%;
     }
     section article {
         background-color: white;
