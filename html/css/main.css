@@ -141,7 +141,7 @@ nav {
     list-style-type: none;
     font-family: 'helvetica';
     flex-direction: row;
-    padding: 0.5em;
+  
     text-decoration: none;
 }
 
