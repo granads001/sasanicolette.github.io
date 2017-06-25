@@ -247,8 +247,8 @@ body main .image fieldset {
 }
 
 #main > nav {
-    margin: 4px;
-    padding: 5px;
+   
+
     background: white;
     flex: 1 6 20%;
     -webkit-order: 1;
