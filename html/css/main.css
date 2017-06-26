@@ -487,22 +487,18 @@ fieldset label {
     }
 }
 main button {
-    height: 30px;
+    
     display: inline-block;
     text-transform: uppercase;
     font-family: "DFDS-bold";
     background: #f6861f;
     border: solid;
-    border-width: 1px;
-    border-color: #d3d4d4;
-    border-radius: 1px;
-    box-shadow: 5px 5px 5px #d3d4d4;
+   
     color: white;
     font-size: 85%;
-    padding: 5em;
-    line-height: 0px;
-    padding: 2% 0;
-    margin: 1em;
+  
+    padding: 2em;
+    
 }
 /* label:hover {
     background-color: #85BCE9;
