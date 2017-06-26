@@ -612,16 +612,17 @@ article time {
     sans-serif;
      letter-spacing: .3px;
     line-height: 20px;
-    font-size: 14px;
     font-size: 2.0vh;
+    font-weight: 100;
     word-break: break-all;
     padding: 1em;
     display: flex;
-    flex-direction: row;
+   
+    justify-content: flex-end;
 }
 main section article a {
     color: #005184;
-    font-family: 'helvetica';
+    font-family: 'dfds-bold';
     font-size: 2.5vh;
     text-decoration: none;
     font-weight: 100;
