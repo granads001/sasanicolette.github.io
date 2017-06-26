@@ -897,7 +897,7 @@ main {
 
     }
     
-    @media all and (min-width: 10.389em) {
+   /* @media all and (min-width: 10.389em) {
     section article {
        background-color: #ffffff;
     font-family: "Helvetica";
@@ -905,7 +905,7 @@ main {
     flex-flow: row;
     width: 47%;
 
-    }
+    }*/
     section:nth-child(n+2) {
            /* background-color: #eaedee; */
     font-family: "Helvetica";
