@@ -641,22 +641,14 @@ h4 {
     margin: 1em;
 }
 article h3 p {
-    background: #fff;
-    box-shadow: 0 0 2px rgba(0,
-    0,
-    0,
-    0.06);
-    color: #545454;
-    font-family: "Helvetica Neue",
+    background: #eaedee;    
     Helvetica,
     Arial,
     sans-serif;
-    font-size: 3.0vh;
-    word-break: break-all;
-    text-decoration: none;
-    justify-content: flex-end;
+    font-size: 3.0vh;  
+    /*justify-content: flex-end;*/
     margin: 0;
-    width: 100%;
+    /*width: 100%;*/
 }
 article h3 {
     margin: 0;
@@ -692,8 +684,8 @@ article h3 {
         width: auto;
         overflow: hidden;
         margin: 0.5em auto;
-        text-align: center;
-        padding-top: 0;
+           justify-content: flex-start;
+        padding-bottom: 3em;
     }
 }
 
