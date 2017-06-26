@@ -539,6 +539,14 @@ section {
     padding-top: 3em;
     
 }
+
+section {
+    background-color: #eaedee;
+    font-family: "Helvetica";
+    width:100%;
+    padding-top: 3em;
+    
+}
 fieldset {
     display: inline-flex;
     flex-direction: row;
@@ -594,7 +602,7 @@ section article {
     flex-flow: row;
     animation: roll 3s;
     animation-iteration-count: 1;
-    width: 20%;
+    width: 23%;
     margin-top: 0.5em;
     margin-left: 0.5em;
     margin-right: 0.5em;
