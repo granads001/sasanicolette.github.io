@@ -418,6 +418,10 @@ main fieldset h2 {
     width: 22%;
     top: 0;
 }
+
+main fieldset {
+display inline-flex;
+}
 header img {
     display: inline-block;
     height: auto;
