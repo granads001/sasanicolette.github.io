@@ -1018,7 +1018,7 @@ body footer img {
     max-width: 90%;
     max-height: 90%;
 }
-footer img:hover {
+body footer img:hover {
     color: #59d;
     cursor: pointer;
 }
