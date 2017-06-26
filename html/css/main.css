@@ -897,7 +897,7 @@ main {
     font-family: "Helvetica";
     display: inline-block;
     flex-flow: row;
-    width: 45%;
+    width: 31%;
 
     }
     section:nth-child(n+2) {
