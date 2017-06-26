@@ -984,7 +984,7 @@ a:hover {
 }
 
 /*----------------------------------------FOOTER------------------------------------------*/
-footer {
+body footer {
     bottom: 0;
     height: 100%;
     left: 0;
@@ -1000,7 +1000,7 @@ footer {
     padding: 1rem;
     display: block;
 }
-footer img {
+body footer img {
     background: #001f37;
     display: inline-block;
     width: 70px;
@@ -1014,7 +1014,7 @@ footer img {
     overflow: hidden;
     transition: color .3s;
 }
-footer img {
+body footer img {
     max-width: 90%;
     max-height: 90%;
 }
