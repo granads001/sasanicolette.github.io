@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: 'dfds-bold';
     src: url("../fonts/dfds-bold.ttf");
@@ -423,8 +424,7 @@ main fieldset h2 {
 }
 
 main fieldset {
-display: inline-flex;
-    padding: 0;
+display inline-flex;
 }
 header img {
     display: inline-block;
@@ -532,13 +532,19 @@ main section article img {
     margin-right: 0;
     width: 100%;
 }
-
+section {
+    background-color: #eaedee;
+    font-family: "Helvetica";
+    width:100%;
+    padding-top: 3em;
+    
+}
 
 section {
     background-color: #eaedee;
     font-family: "Helvetica";
     width:100%;
-   padding: 0;
+    padding-top: 3em;
     
 }
 fieldset {
@@ -891,17 +897,7 @@ main {
     font-family: "Helvetica";
     display: inline-block;
     flex-flow: row;
-    width: 31%;
-
-    }
-    
-    @media all and (min-width: 10.389em) {
-    section article {
-       background-color: #ffffff;
-    font-family: "Helvetica";
-    display: inline-block;
-    flex-flow: row;
-    width: 47%;
+    width: 45%;
 
     }
     section:nth-child(n+2) {
