@@ -545,7 +545,7 @@ fieldset {
     display: inline-flex;
     flex-direction: row;
     border: none;
-    background-color: white;
+
     font-family: "Helvetica";
     animation: roll 3s;
     animation-iteration-count: 1;
