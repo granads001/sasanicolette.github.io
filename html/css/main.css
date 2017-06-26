@@ -535,7 +535,7 @@ section {
     width:100%;
     
 }
-main fieldset:nth-child(2) {
+fieldset {
     display: inline-flex;
     flex-direction: row;
     border: none;
