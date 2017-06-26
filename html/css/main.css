@@ -615,7 +615,7 @@ article time {
     sans-serif;
      letter-spacing: .3px;
     line-height: 20px;
-    font-size: 1.0vh;
+    font-size: 1.5vh;
     font-weight: 100;
     word-break: break-all;
     padding: 1em;
@@ -652,7 +652,7 @@ article h3 p {
     sans-serif;
     font-size: 3.0vh;  
     /*justify-content: flex-end;*/
-    margin: 0;
+    margin: 0.4em;
     /*width: 100%;*/
 }
 article h3 {
@@ -680,6 +680,7 @@ article h3 {
         /*        margin: 2.3% auto;*/
     }
     fieldset p, section article p {
+        background-color:white;
         color: #545454;
         font-family: "segoeui";
         font-size: 2.5vmin;
@@ -688,9 +689,9 @@ article h3 {
         align-content: center;
         width: auto;
         overflow: hidden;
-        margin: 0.5em auto;
+       
            justify-content: flex-start;
-        padding-bottom: 3em;
+      
     }
 }
 
