@@ -662,8 +662,9 @@ article h3 p {
     margin: 0;
     width: 100%;
 }
-article h3 {
-    margin: 0;
+section article h3 {
+    margin: 2em;
+    padding: 2em;
 }
 @media all and (min-width: 106.125em) {
     main fieldset p, section article p {
