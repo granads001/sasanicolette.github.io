@@ -285,7 +285,6 @@ main #main nav p {
 
 
 /*ipad
-
 @media only screen and (min-device-width: 48.000em) {
     /* STYLES GO HERE */
 
@@ -533,13 +532,19 @@ main section article img {
     margin-right: 0;
     width: 100%;
 }
-
+section {
+    background-color: #eaedee;
+    font-family: "Helvetica";
+    width:100%;
+    padding-top: 3em;
+    
+}
 
 section {
     background-color: #eaedee;
     font-family: "Helvetica";
     width:100%;
-   padding: 0;
+    padding-top: 3em;
     
 }
 fieldset {
@@ -662,9 +667,8 @@ article h3 p {
     margin: 0;
     width: 100%;
 }
-section article h3 {
-    margin: 2em;
-    padding: 2em;
+article h3 {
+    margin: 0;
 }
 @media all and (min-width: 106.125em) {
     main fieldset p, section article p {
@@ -897,7 +901,7 @@ main {
 
     }
     
-   /* @media all and (min-width: 10.389em) {
+    @media all and (min-width: 10.389em) {
     section article {
        background-color: #ffffff;
     font-family: "Helvetica";
@@ -905,7 +909,7 @@ main {
     flex-flow: row;
     width: 47%;
 
-    }*/
+    }
     section:nth-child(n+2) {
            /* background-color: #eaedee; */
     font-family: "Helvetica";
@@ -984,7 +988,7 @@ a:hover {
 }
 
 /*----------------------------------------FOOTER------------------------------------------*/
-body footer {
+footer {
     bottom: 0;
     height: 100%;
     left: 0;
@@ -1000,7 +1004,7 @@ body footer {
     padding: 1rem;
     display: block;
 }
-body footer img {
+footer img {
     background: #001f37;
     display: inline-block;
     width: 70px;
@@ -1014,38 +1018,24 @@ body footer img {
     overflow: hidden;
     transition: color .3s;
 }
-body footer img {
+footer img {
     max-width: 90%;
     max-height: 90%;
 }
-body footer img:hover {
+footer img:hover {
     color: #59d;
     cursor: pointer;
 }
 
 /*-------*/
-article h3 .star {
+.star {
     width: 50px;
     height: 50px;
     background: url("https://cssanimation.rocks/images/posts/steps/twitter_fave.png") no-repeat;
     background-position: -10px 0;
     cursor: pointer;
 }
-article h3 .like {
-    width: 70px;
-    height: 70px;
-    background: url("https://abs.twimg.com/a/1446542199/img/t1/web_heart_animation.png") no-repeat;
-    background-position: -20px;
-    cursor: pointer;
-}
-    article h3 section .star {
-    width: 50px;
-    height: 50px;
-    background: url("https://cssanimation.rocks/images/posts/steps/twitter_fave.png") no-repeat;
-    background-position: -10px 0;
-    cursor: pointer;
-}
-article h3 section .like {
+.like {
     width: 70px;
     height: 70px;
     background: url("https://abs.twimg.com/a/1446542199/img/t1/web_heart_animation.png") no-repeat;
@@ -1070,3 +1060,5 @@ section article section {
 #main nav section {
     margin: 1em auto;
 }
+Contact GitHub API Training Shop Blog About
+© 2017 GitHub, Inc. Terms Privacy Security Status Help
