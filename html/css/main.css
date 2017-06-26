@@ -561,7 +561,7 @@ section article {
     flex-flow: row;
     animation: roll 3s;
     animation-iteration-count: 1;
-    width: 25%;
+    width: 20%;
     margin-top: 0.5em;
     margin-left: 0.5em;
     margin-right: 0.5em;
