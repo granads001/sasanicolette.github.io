@@ -424,7 +424,8 @@ main fieldset h2 {
 }
 
 main fieldset {
-display inline-flex;
+display: inline-flex;
+    padding: 0;
 }
 header img {
     display: inline-block;
