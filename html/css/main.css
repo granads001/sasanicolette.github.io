@@ -533,19 +533,13 @@ main section article img {
     margin-right: 0;
     width: 100%;
 }
-section {
-    background-color: #eaedee;
-    font-family: "Helvetica";
-    width:100%;
-    padding-top: 3em;
-    
-}
+
 
 section {
     background-color: #eaedee;
     font-family: "Helvetica";
     width:100%;
-    padding-top: 3em;
+   padding: 0;
     
 }
 fieldset {
