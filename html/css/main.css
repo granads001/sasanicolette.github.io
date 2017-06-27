@@ -997,24 +997,24 @@ section article section {
     margin: 1em auto;
 }
 
-html, body {
-  background:#34495e;
- 
+
+section article {
+    background-color: white;
+    display: inline-block;
+    flex-flow: row;
+    animation: roll 3s;
+    animation-iteration-count: 1;
+    width: 23%;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    color: #bbb;
+    font-size: 1.5rem;
+    height: atuo;
+    overflow: hidden;
+    justify-content: center;
 }
-.box{
-  width: 400px;
-  height: 200px;
-  background: #3498db;
-  text-align: center;
-  line-height: 50px;
-  border-radius: 10px;
-  position: absolute;
-  top: 50px;
-  left: 260px;
-  transition: opacity 500ms;
-   -webkit-transition: opacity 500ms; /* Safari */;
-  opacity:0;
-}
+
 button{
   width: 120px;
   height:50px;
@@ -1024,7 +1024,7 @@ button{
   cursor: pointer;
   position: absolute;
 }
-.bt{
+body main button .bt{
    width: 120px;
   height:50px;
   background:#e74c3c;
