@@ -787,17 +787,18 @@ main {
 @media all and (max-width: 85.625em) {
     fieldset,
     fieldset:nth-child(-n+3) {
-        border: none;
-        font-family: "Helvetica";
+      
         display: inline-block;
         flex-flow: row;
         animation: roll 3s;
         animation-iteration-count: 1;
-        width: 100%;
-        height: 100%;
+       /* width: 100%;
+        height: 100%;*/
         font-size: 1.5rem;
         overflow-x: hidden;
-        ;
+            padding: 0;
+    margin: 0;
+        
     }
     .image fieldset h2 {
         background: url(banner.svg) no-repeat top left;
@@ -891,18 +892,14 @@ main {
     section:nth-child(n+2) {
            /* background-color: #eaedee; */
     font-family: "Helvetica";
-
+margin: 0;
     text-align: center;
     }
 }
 @media all and (max-width: 63.875em) {
     section article {
         background-color: white;
-        border: solid;
-        border-color: #d3d4d4;
-        border-radius: 1px;
-        border-width: 1px;
-        box-shadow: 5px 5px 5px #d3d4d4;
+        
         font-family: "Helvetica";
         display: inline-block;
         flex-flow: column;
