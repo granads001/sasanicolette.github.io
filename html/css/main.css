@@ -680,7 +680,6 @@ article h3 {
         /*        margin: 2.3% auto;*/
     }
     fieldset p, section article p {
-
         color: #545454;
         font-family: "segoeui";
         font-size: 2.5vmin;
@@ -856,26 +855,15 @@ main {
         text-align: center;
     }
     fieldset label {
-        display: inline-flex;
-        background: #ccc;
-        padding: 1em 3em 1em 3em;
-        width: 1.7em;
-        height: auto;
-        background-color: white;
-        border-style: hidden;
-        font-family: "dfds-bold";
-        font-size: 3.3vmin;
-        flex-flow: row wrap;
-        border: solid;
-        border-color: #d3d4d4;
-        border-radius: 1px;
-        border-width: 1px;
-        box-shadow: 5px 5px 5px #d3d4d4;
-        margin: 1em auto;
-        margin-left: 1em;
-        text-align: center;
-        color: #b3cbda;
+      
+    width: 1.7em;
+
+    font-size: 3.3vmin;
+
+    margin: 1em auto;
+    margin-left: 1em;
     }
+    
     main fieldset {
         display:flex; }
     
