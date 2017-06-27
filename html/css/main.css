@@ -855,7 +855,7 @@ main {
         text-align: center;
     }
     fieldset label {
-      
+      justify-content: center;
     width: 1.7em;
 
     font-size: 3.3vmin;
