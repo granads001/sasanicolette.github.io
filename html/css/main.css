@@ -954,7 +954,7 @@ footer img {
     font-size: 35px;
     text-align: center;
     color: #bbb;
-    border-radius: 50%;
+   
     overflow: hidden;
     transition: color .3s;
 }
