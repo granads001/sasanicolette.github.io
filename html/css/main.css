@@ -532,7 +532,7 @@ main section article img {
     vertical-align: middle;
     height: auto;
     margin-right: 0;
-    width: 100%;
+   
 }
 section {
     background-color: #eaedee;
@@ -788,7 +788,6 @@ main {
     fieldset,
     fieldset:nth-child(-n+3) {
         border: none;
-        background-color: white;
         font-family: "Helvetica";
         display: inline-block;
         flex-flow: row;
