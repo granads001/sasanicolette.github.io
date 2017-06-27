@@ -908,7 +908,7 @@ margin: 0;
     section {
         background-color: #eaedee;
         font-family: "Helvetica";
-        
+        padding:0;
         text-align: center;
     }
 }
