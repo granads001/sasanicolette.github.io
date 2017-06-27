@@ -489,19 +489,16 @@ fieldset label {
     }
 }
 main button {
-    
     display: inline-block;
     text-transform: uppercase;
-    font-family: "DFDS-bold";
+    font-family: "dfds-bold";
     background: #f6861f;
     border: solid;
-   
     color: white;
     font-size: 85%;
-  
-    padding: 2em;
-    
+    padding: 0.5em;
 }
+
 /* label:hover {
     background-color: #85BCE9;
     color: white;
@@ -896,7 +893,7 @@ margin: 0;
     section {
         background-color: #eaedee;
         font-family: "Helvetica";
-        padding:0;
+        padding-top:2em;
         text-align: center;
     }
 }
