@@ -18,8 +18,9 @@ body {
 }
 
 header {
-background-color: white; 
+    background-color: white;
 }
+
 
 /*range*/
 
@@ -152,17 +153,17 @@ nav {
 nav ul li a,
 ul li {
     display: inline-flex;
-        font-family: 'segoe ui';
+    font-family: 'segoe ui';
     flex-direction: row;
     padding-left: 1em;
     text-align: center;
     justify-content: flex-end;
     list-style: none;
-    font-weight:100;
+    font-weight: 100;
     list-style-type: none;
-       color: #005184;
+    color: #005184;
     text-decoration: none;
-        font-size: 1rem;
+    font-size: 1rem;
     lein-height: 1;
 }
 
@@ -240,7 +241,6 @@ body main .image fieldset {
 #main > article {
     margin: 4px;
     padding: 5px;
-
     flex: 3 1 60%;
     -webkit-order: 2;
     order: 2;
@@ -249,8 +249,6 @@ body main .image fieldset {
 }
 
 #main > nav {
-   
-
     background: white;
     flex: 1 6 20%;
     -webkit-order: 1;
@@ -280,6 +278,8 @@ main #main nav p {
     font-family: "helvetica";
     font-weight: 100;
 }
+
+
 /*
 main section article h3 {
 margin:0;
@@ -311,14 +311,14 @@ margin:0;
         -webkit-flex-flow: column;
         flex-flow: column;
     }
-
+    
     #main > article,
     #main > nav,
     {
         order -webkit-order: 0;
         order: 0;
     }
-
+    
     #main > article {
         margin: auto;
         padding: 3px;
@@ -328,9 +328,8 @@ margin:0;
         order: 2;
         height: auto;
     }
-
+    
     #main > nav {
-        
         padding: 5px;
         background: white;
         flex: 1 6 20%;
@@ -340,7 +339,7 @@ margin:0;
         max-width: 100%;
         display: inline-flex;
         flex-direction: row;
-        height:auto;
+        height: auto;
     }
 }
 h1 {
@@ -396,7 +395,7 @@ main section h2 {
     color: white;
     align-content: flex-start;
     /*    display: inline-flex;*/
-
+    
     flex-flow: row;
     margin-bottom: 0.3em;
     margin-bottom: 0;
@@ -415,7 +414,7 @@ main fieldset h2 {
     color: white;
     /*    align-content: flex-start;
     /*    display: inline-flex;*/
-
+    
     flex-flow: row;
     margin-bottom: 0.3em;
     margin-bottom: 0;
@@ -424,9 +423,8 @@ main fieldset h2 {
     width: 22%;
     top: 0;
 }
-
 main fieldset {
-display inline-flex;
+    display inline-flex;
 }
 header img {
     display: inline-block;
@@ -442,7 +440,7 @@ header img {
 fieldset input[type=checkbox] {
     position: absolute;
     /*    /top: -9999px;*/
-
+    
     left: -9999px;
 }
 .label {
@@ -529,20 +527,17 @@ main section article img {
     vertical-align: middle;
     height: auto;
     margin-right: 0;
-   
 }
 section {
     background-color: #eaedee;
     font-family: "Helvetica";
     width:100%;
     padding-top: 3em;
-    
 }
 fieldset {
     display: inline-flex;
     flex-direction: row;
     border: none;
-
     font-family: "Helvetica";
     animation: roll 3s;
     animation-iteration-count: 1;
@@ -552,9 +547,7 @@ fieldset {
     height: auto;
     overflow-y: auto;
     text-align: center;
-   
 }
-
 fieldset:first-child {
     display: inline-flex;
     flex-direction: row;
@@ -569,9 +562,9 @@ fieldset:first-child {
     height: auto;
     overflow-y: auto;
     text-align: center;
-
     border-bottom: 1em solid #eaedee;
-} {
+}
+{
     display: inline-flex;
     flex-direction: row;
     border: none;
@@ -604,20 +597,18 @@ section article {
     justify-content: center;
 }
 article time {
-  
     color: #6888ad;
     font-family: "Palanquin",
     Helvetica,
     Arial,
     sans-serif;
-     letter-spacing: .3px;
+    letter-spacing: .3px;
     line-height: 20px;
     font-size: 1.5vh;
     font-weight: 100;
     word-break: break-all;
     padding: 1em;
     display: flex;
-   
     justify-content: flex-end;
 }
 main section article a {
@@ -643,11 +634,11 @@ h4 {
     margin: 1em;
 }
 article h3 p {
-    background: #eaedee;    
+    background: #eaedee;
     Helvetica,
     Arial,
     sans-serif;
-    font-size: 3.0vh;  
+    font-size: 3.0vh;
     /*justify-content: flex-end;*/
     margin: 0.4em;
     /*width: 100%;*/
@@ -656,7 +647,8 @@ article h3 {
     margin: 0;
 }
 @media all and (min-width: 106.125em) {
-    main fieldset p, section article p {
+    main fieldset p,
+    section article p {
         color: #545454;
         font-family: "segoeui";
         font-size: 2.5vmin;
@@ -676,7 +668,8 @@ article h3 {
         width: 90%;
         /*        margin: 2.3% auto;*/
     }
-    fieldset p, section article p {
+    fieldset p,
+    section article p {
         color: #545454;
         font-family: "segoeui";
         font-size: 2.5vmin;
@@ -685,17 +678,14 @@ article h3 {
         align-content: center;
         width: auto;
         overflow: hidden;
-       
-           justify-content: flex-start;
-      
+        justify-content: flex-start;
     }
 }
-
 main {
     background-color: #ffffff;
     padding-top: 0;
     margin: 1em auto;
-     width: 95%;
+    width: 95%;
     /*     margin-top: 0.1 em; */
 }
 @media all and (max-width: 63.750em) {
@@ -721,10 +711,10 @@ main {
         height: 4em;
     }
     main {
-           background-color: #ffffff;
-    padding-top: 0;
-    margin: 1em auto;
-    width: 95%;
+        background-color: #ffffff;
+        padding-top: 0;
+        margin: 1em auto;
+        width: 95%;
     }
     section article {
         background-color: white;
@@ -774,7 +764,7 @@ main {
         padding: 0.5em;
         margin-top: 0;
         /*        flex-flow: row;*/
-
+        
         width: 50%;
         top: 0;
         left: 0;
@@ -783,18 +773,17 @@ main {
 @media all and (max-width: 85.625em) {
     fieldset,
     fieldset:nth-child(-n+3) {
-      
         display: inline-block;
         flex-flow: row;
         animation: roll 3s;
         animation-iteration-count: 1;
-       /* width: 100%;
+        /* width: 100%;
         height: 100%;*/
+        
         font-size: 1.5rem;
         overflow-x: hidden;
-            padding: 0;
-    margin: 0;
-        
+        padding: 0;
+        margin: 0;
     }
     .image fieldset h2 {
         background: url(banner.svg) no-repeat top left;
@@ -812,7 +801,7 @@ main {
     }
     .image {
         /* position: relative; */
-
+        
         width: 100%;
         height: auto;
         display: inline-flex;
@@ -833,11 +822,11 @@ main {
         font-family: "Helvetica";
         /* margin-left: 0.5em; */
         /* margin-right: 0.5em; */
-
+        
         font-size: 1.5rem;
         overflow: scroll;
         /* height: auto; */
-
+        
         overflow-y: auto;
         align-items: baseline;
         padding: 0;
@@ -852,48 +841,45 @@ main {
         text-align: center;
     }
     fieldset label {
-      justify-content: center;
-    width: 1.7em;
-
-    font-size: 3.3vmin;
-
-    margin: 1em auto;
-    margin-left: 1em;
+        justify-content: center;
+        width: 1.7em;
+        font-size: 3.3vmin;
+        margin: 1em auto;
+        margin-left: 1em;
     }
-    
     main fieldset {
-        display:flex; }
-    
+        display: flex;
+    }
 }
 @media all and (max-width: 93.750em) {
     section article {
-       background-color: #ffffff;
-    font-family: "Helvetica";
-    display: inline-block;
-    flex-flow: row;
-    width: 45%;
-
+        background-color: #ffffff;
+        font-family: "Helvetica";
+        display: inline-block;
+        flex-flow: row;
+        width: 45%;
     }
     section:nth-child(n+2) {
-           /* background-color: #eaedee; */
-    font-family: "Helvetica";
-margin: 0;
-    text-align: center;
+        /* background-color: #eaedee; */
+        
+        font-family: "Helvetica";
+        margin: 0;
+        text-align: center;
     }
 }
 @media all and (max-width: 63.875em) {
     section article {
         background-color: white;
-        
         font-family: "Helvetica";
         display: inline-block;
         flex-flow: column;
         width: 100%;
+        margin: 0;
     }
     section {
         background-color: #eaedee;
         font-family: "Helvetica";
-        padding-top:2em;
+        padding-top: 2em;
         text-align: center;
     }
 }
