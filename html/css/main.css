@@ -756,18 +756,10 @@ main {
     }
     main fieldset h2,
     body .image fieldset h2 {
-        font-family: 'dfds-bold';
-        color: white;
-        flex-flow: row;
-        margin-bottom: 0.3em;
-        margin-bottom: 0;
-        padding: 0.5em;
-        margin-top: 0;
-        /*        flex-flow: row;*/
-        
-        width: 50%;
-        top: 0;
-        left: 0;
+       font-family: 'dfds-bold'; */
+    margin-bottom: 0.3em;
+    width: 50%;
+  
     }
 }
 @media all and (max-width: 85.625em) {
