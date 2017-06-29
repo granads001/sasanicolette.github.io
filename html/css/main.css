@@ -551,7 +551,7 @@ fieldset {
     text-align: center;
     padding: 0;
 }
-fieldset:first-child {
+/*fieldset:first-child {
     display: inline-flex;
     flex-direction: row;
     border: none;
@@ -566,7 +566,7 @@ fieldset:first-child {
     overflow-y: auto;
     text-align: center;
     border-bottom: 1em solid #eaedee;
-}
+}*/
 {
     display: inline-flex;
     flex-direction: row;
