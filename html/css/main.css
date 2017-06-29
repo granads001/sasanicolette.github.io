@@ -424,7 +424,19 @@ main fieldset h2 {
     top: 0;
 }
 main fieldset {
-    display inline-flex;
+       display: inline-flex;
+    flex-direction: row;
+    border: none;
+    font-family: "Helvetica";
+    animation: roll 3s;
+    animation-iteration-count: 1;
+    width: 100%;
+    font-size: 1.5rem;
+    overflow: scroll;
+    height: auto;
+    overflow-y: auto;
+    text-align: center;
+    padding: 0;
 }
 header img {
     display: inline-block;
@@ -536,7 +548,7 @@ section {
     width:100%;
     padding-top: 3em;
 }
-fieldset {
+/*fieldset {
     display: inline-flex;
     flex-direction: row;
     border: none;
@@ -550,7 +562,7 @@ fieldset {
     overflow-y: auto;
     text-align: center;
     padding: 0;
-}
+}*/
 /*fieldset:first-child {
     display: inline-flex;
     flex-direction: row;
