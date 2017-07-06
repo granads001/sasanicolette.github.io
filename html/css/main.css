@@ -394,10 +394,7 @@ main section {
         margin-bottom: 1em;
 }
 @media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: portrait) 
-  and (-webkit-min-device-pixel-ratio: 2) {
+  and (min-device-width: 768px)  {
 main section {
     display: inline;
     margin-bottom: 1em;
@@ -463,8 +460,7 @@ fieldset label {
 
 @media screen 
   and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 1) { 
+  { 
       aside article {
     background-color: white;
     display: inline-block;
@@ -492,10 +488,7 @@ margin-bottom: 1em;
 }
 
 @media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: portrait) 
-  and (-webkit-min-device-pixel-ratio: 2) {
+  and (min-device-width: 768px)  {
       aside article {
     background-color: white;
     display: inline-block;
@@ -519,8 +512,7 @@ margin-bottom: 1em;
 
 @media only screen 
   and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+  {
             aside article {
     background-color: white;
     display: inline-block;
