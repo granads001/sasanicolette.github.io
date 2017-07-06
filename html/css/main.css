@@ -450,6 +450,31 @@ fieldset label {
     color: #ffffff;
     justify-content: center;
 }
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+      aside article {
+    background-color: white;
+    display: inline-block;
+    flex-flow: row;
+    animation: roll 3s;
+    animation-iteration-count: 1;
+    width: 23%;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    color: #bbb;
+    font-size: 1.5rem;
+    height: atuo;
+    overflow: hidden;
+    justify-content: center;
+}
+
+}
+
+
 @media all and (max-width:50.000em) {
 main section {
 margin-bottom: 1em;
@@ -550,28 +575,7 @@ main aside article img {
     width: 100%;
 
 }
-@media screen 
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 1) { 
-}
 
-aside article {
-    background-color: white;
-    display: inline-block;
-    flex-flow: row;
-    animation: roll 3s;
-    animation-iteration-count: 1;
-    width: 23%;
-    margin-top: 0.5em;
-    margin-left: 0.5em;
-    margin-right: 0.5em;
-    color: #bbb;
-    font-size: 1.5rem;
-    height: atuo;
-    overflow: hidden;
-    justify-content: center;
-}
 article time {
     color: #6888ad;
     font-family: "Palanquin",
