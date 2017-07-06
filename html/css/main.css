@@ -139,7 +139,7 @@ input[type="submit"]:hover {
 
 /*https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
 
-nav {
+header nav {
     background-color: white;
     list-style: none;
     border: 0.2em solid #eaedee;
