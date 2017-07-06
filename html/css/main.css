@@ -842,16 +842,6 @@ main {
         margin: 0;
         text-align: center;
     }
-    fieldset label {
-        justify-content: center;
-        width: 1.7em;
-        font-size: 3.3vmin;
-        margin: 1em auto;
-        margin-left: 1em;
-    }
-   /* main fieldset {
-        display: flex;
-    }*/
 }
 @media all and (max-width: 93.750em) {
    aside article {
