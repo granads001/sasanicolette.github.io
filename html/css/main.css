@@ -426,8 +426,6 @@ main fieldset h2 {
     top: 0;
 }
 main fieldset {
-       display: inline-flex;
-    flex-direction: row;
     border: none;
     font-family: "Helvetica";
     animation: roll 3s;
