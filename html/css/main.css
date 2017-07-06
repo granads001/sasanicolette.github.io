@@ -381,7 +381,7 @@ header form {
     border: none;
     transition:
 }
-main section h2 {
+main aside h2 {
     background: ('banner.svg') no-repeat top left;
     font-family: 'dfds-bold';
     color: white;
@@ -534,7 +534,7 @@ verhalen article img-content {
     margin-right: 0;
     width: 100%;
 }
-main section article img {
+main aside article img {
     display: inline-block;
     vertical-align: middle;
     height: auto;
@@ -590,7 +590,7 @@ main section article img {
     text-align: center;
     border-bottom: 1em solid #eaedee;
 }*/
-section article {
+aside article {
     background-color: white;
     display: inline-block;
     flex-flow: row;
@@ -621,14 +621,14 @@ article time {
     display: flex;
     justify-content: flex-end;
 }
-main section article a {
+main aside article a {
     color: #005184;
     font-family: 'dfds-bold';
     font-size: 2.5vh;
     text-decoration: none;
     font-weight: 100;
 }
-section article h4,
+aside article h4,
 {
     color: #005184;
     font-family: 'helvetica';
@@ -659,7 +659,7 @@ article h3 {
 }
 @media all and (min-width: 106.125em) {
     main fieldset p,
-    section article p {
+    aside article p {
         color: #545454;
         font-family: "segoeui";
         font-size: 2.5vmin;
@@ -680,7 +680,7 @@ article h3 {
         /*        margin: 2.3% auto;*/
     }
     fieldset p,
-    section article p {
+    aside article p {
         color: #545454;
         font-family: "segoeui";
         font-size: 2.5vmin;
@@ -709,9 +709,7 @@ main {
         width: 100%;
         overflow-x: hidden;
     }
-    main section article a {
-        /*        text-align: center;*/
-    }
+ 
     input[type="text"]:focus {
         width: 30em;
         z-index: 1;
@@ -728,7 +726,7 @@ main {
         margin: 1em auto;
         width: 95%;
     }
-    section article {
+    aside article {
         background-color: white;
         display: flex;
         flex-flow: column;
@@ -739,7 +737,7 @@ main {
         width: 100%;
         overflow-x: hidden;
     }
-    main section article img {
+    main aside article img {
         display: flex;
         vertical-align: middle;
         height: auto;
@@ -758,7 +756,7 @@ main {
         width: 100%;
         height: auto;
     }
-    main section h2 {
+    main aside h2 {
         width: 50%;
         font-size: 5.3vmin;
         position: relative;
@@ -836,7 +834,7 @@ main {
         padding: 0;
         width: 100%;
     }*/
-    section article section {
+ aside article aside {
         display: flex;
         flex-flow: row;
         align-items: center;
@@ -856,14 +854,14 @@ main {
     }*/
 }
 @media all and (max-width: 93.750em) {
-    section article {
+   aside article {
         background-color: #ffffff;
         font-family: "Helvetica";
         display: inline-block;
         flex-flow: row;
         width: 45%;
     }
-    section:nth-child(n+2) {
+aside:nth-child(n+2) {
         /* background-color: #eaedee; */
         
         font-family: "Helvetica";
@@ -872,7 +870,7 @@ main {
     }
 }
 @media all and (max-width: 63.875em) {
-    section article {
+   aside article {
         background-color: white;
         font-family: "Helvetica";
         display: inline-block;
@@ -880,7 +878,7 @@ main {
         width: 100%;
         margin: 0;
     }
-    section {
+aside {
         background-color: #eaedee;
         font-family: "Helvetica";
         padding-top: 2em;
@@ -995,13 +993,13 @@ footer img:hover {
     background-position: -3529px 0;
     transition: background 1s steps(55);
 }
-section article section {
+aside article aside {
     display: inline-flex;
     flex-flow: row;
     align-items: center;
     width: 100%;
     margin-top: 0;
 }
-#main nav section {
+#main nav aside {
     margin: 1em auto;
 }
