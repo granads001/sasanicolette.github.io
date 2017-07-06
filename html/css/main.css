@@ -248,14 +248,6 @@ body main .image fieldset {
     background-image: url(plaatjes/blind/desktop.svg);
 }
 
-#main > nav {
-    background: white;
-    flex: 1 6 20%;
-    -webkit-order: 1;
-    order: 1;
-    width: 100%;
-    max-width: 15%;
-}
 
 main #main article p,
 main #main nav p {
