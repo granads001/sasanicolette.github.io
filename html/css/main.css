@@ -382,20 +382,13 @@ header form {
     transition:
 }
 main aside h2 {
-    background: ('banner.svg') no-repeat top left;
-    font-family: 'dfds-bold';
-    color: white;
-    align-content: flex-start;
-    /*    display: inline-flex;*/
-    
-    flex-flow: row;
-    margin-bottom: 0.3em;
+      background: ('banner.svg') no-repeat top left;
     margin-bottom: 0;
     margin-top: 0;
     flex-flow: row;
     width: 22%;
-    top: 0;
 }
+
 main section {
     display:inline-flex;
 }
