@@ -391,6 +391,7 @@ main aside h2 {
 
 main section {
     display:inline-flex;
+        margin-bottom: 1em;
 }
 
 main aside {
