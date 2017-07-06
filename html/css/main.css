@@ -203,7 +203,7 @@ body main .image fieldset {
     width: 50%;
 }
 
-. fieldset p {
+/*.  fieldset p {
     color: #005184;
     font-family: 'helvetica';
     font-size: 2.9vmin;
@@ -212,7 +212,7 @@ body main .image fieldset {
     width: auto;
     padding: 1em;
     margin-right: 0;
-}
+}*/
 
 
 /*https://css-tricks.com/text-blocks-over-image/*/
@@ -578,7 +578,7 @@ section {
     overflow-y: auto;
     text-align: center;
     border-bottom: 1em solid #eaedee;
-}*/
+}
 {
     display: inline-flex;
     flex-direction: row;
@@ -594,7 +594,7 @@ section {
     overflow-y: auto;
     text-align: center;
     border-bottom: 1em solid #eaedee;
-}
+}*/
 section article {
     background-color: white;
     display: inline-block;
@@ -779,7 +779,7 @@ main {
   
     }
 }
-@media all and (max-width: 85.625em) {
+/*@media all and (max-width: 85.625em) {
     fieldset,
     fieldset:nth-child(-n+3) {
         display: inline-block;
@@ -793,7 +793,7 @@ main {
         overflow-x: hidden;
         padding: 0;
         margin: 0;
-    }
+    }*?
     .image fieldset h2 {
         background: url(banner.svg) no-repeat top left;
         font-family: 'dfds-bold';
@@ -823,7 +823,7 @@ main {
         height: auto;
         /* max-width: 120rem; */
     }
-    body main .image fieldset {
+    /*body main .image fieldset {
         display: inline-flex;
         flex-direction: row;
         border: none;
@@ -840,7 +840,7 @@ main {
         align-items: baseline;
         padding: 0;
         width: 100%;
-    }
+    }*/
     section article section {
         display: flex;
         flex-flow: row;
@@ -856,9 +856,9 @@ main {
         margin: 1em auto;
         margin-left: 1em;
     }
-    main fieldset {
+   /* main fieldset {
         display: flex;
-    }
+    }*/
 }
 @media all and (max-width: 93.750em) {
     section article {
