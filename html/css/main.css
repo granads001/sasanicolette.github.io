@@ -279,14 +279,6 @@ main #main nav p {
     font-weight: 100;
 }
 
-
-/*
-main section article h3 {
-margin:0;
-    padding:0;
-}*/
-
-
 /*ipad
 @media only screen and (min-device-width: 48.000em) {
     /* STYLES GO HERE */
@@ -407,6 +399,14 @@ main section h2 {
 main section:first-of-type {
     display:inline-flex;
 }
+
+main section:last-of-type {
+    background-color: #eaedee;
+    font-family: "Helvetica";
+    width:100%;
+    padding-top: 3em;
+}
+
 /*fieldset 2*/
 main fieldset h2 {
     background: url('banner.svg') no-repeat top left;
@@ -542,12 +542,7 @@ main section article img {
     width: 100%;
 
 }
-section:last-of-type {
-    background-color: #eaedee;
-    font-family: "Helvetica";
-    width:100%;
-    padding-top: 3em;
-}
+
 /*fieldset {
     display: inline-flex;
     flex-direction: row;
