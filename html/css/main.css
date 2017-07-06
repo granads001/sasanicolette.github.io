@@ -396,7 +396,7 @@ main aside h2 {
     width: 22%;
     top: 0;
 }
-main section:first-of-type {
+main section {
     display:inline-flex;
 }
 
