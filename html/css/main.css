@@ -404,7 +404,7 @@ main section h2 {
     width: 22%;
     top: 0;
 }
-main section:first-child {
+main section:first-of-type {
     display:inline-flex;
 }
 /*fieldset 2*/
