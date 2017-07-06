@@ -542,7 +542,7 @@ main section article img {
     width: 100%;
 
 }
-section:second-of-type {
+section:last-of-type {
     background-color: #eaedee;
     font-family: "Helvetica";
     width:100%;
