@@ -400,7 +400,7 @@ main section:first-of-type {
     display:inline-flex;
 }
 
-main section:last-of-type {
+main aside {
     background-color: #eaedee;
     font-family: "Helvetica";
     width:100%;
