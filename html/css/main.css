@@ -725,6 +725,7 @@ main {
     }
     header img {
         height: 4em;
+            width: auto;
     }
     main {
         background-color: #ffffff;
