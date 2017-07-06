@@ -394,13 +394,6 @@ main section {
         margin-bottom: 1em;
 }
 
-main aside {
-    background-color: #eaedee;
-    font-family: "Helvetica";
-    width:100%;
-    padding-top: 3em;
-}
-
 /*fieldset 2*/
 main fieldset h2 {
     font-weight: 50;
