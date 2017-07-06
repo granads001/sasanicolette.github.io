@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: 'dfds-bold';
     src: url("../fonts/dfds-bold.ttf");
@@ -394,13 +395,6 @@ main section {
         margin-bottom: 1em;
 }
 
-@media all and (max-width:50.000em) {
-main section {
-margin-bottom: 1em;
-    display: block;
-    }
-}
-
 /*fieldset 2*/
 main fieldset h2 {
     font-weight: 50;
@@ -457,35 +451,14 @@ fieldset label {
     color: #ffffff;
     justify-content: center;
 }
-
-@media screen 
-  and (max-device-width: 1200px) 
-  { 
-      aside article {
-    background-color: white;
-    display: inline-block;
-    flex-flow: row;
-    animation: roll 3s;
-    animation-iteration-count: 1;
-    width: 23%;
-    margin-top: 0.5em;
-    margin-left: 0.5em;
-    margin-right: 0.5em;
-    color: #bbb;
-    font-size: 1.5rem;
-    height: atuo;
-    overflow: hidden;
-    justify-content: center;
+@media all and (max-width:50.000em) {
+main section {
+margin-bottom: 1em;
+    }
 }
 
-}
-
-
-
-
-@media only screen 
-  and (max-device-width: 768px)  {
-      aside article {
+@media all and (max-width:71.875em) {
+aside article {
     background-color: white;
     display: inline-block;
     flex-flow: row;
@@ -501,33 +474,6 @@ fieldset label {
     overflow: hidden;
     justify-content: center;
 }
-
-}
-
-
-
-@media only screen 
-  and (max-device-width: 320px) 
-  {
-            aside article {
-    background-color: white;
-    display: inline-block;
-    flex-flow: row;
-    animation: roll 3s;
-    animation-iteration-count: 1;
-    width: 31%;
-    margin-top: 0.5em;
-    margin-left: 0.5em;
-    margin-right: 0.5em;
-    color: #bbb;
-    font-size: 1.5rem;
-    height: atuo;
-    overflow: hidden;
-    justify-content: center;
-}
-
-}
-
 }
 main button {
     display: inline-block;
@@ -574,6 +520,23 @@ main aside article img {
 
 }
 
+
+aside article {
+    background-color: white;
+    display: inline-block;
+    flex-flow: row;
+    animation: roll 3s;
+    animation-iteration-count: 1;
+    width: 23%;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    color: #bbb;
+    font-size: 1.5rem;
+    height: atuo;
+    overflow: hidden;
+    justify-content: center;
+}
 article time {
     color: #6888ad;
     font-family: "Palanquin",
