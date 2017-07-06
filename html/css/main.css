@@ -402,22 +402,12 @@ main aside {
 
 /*fieldset 2*/
 main fieldset h2 {
-    background: url('banner.svg') no-repeat top left;
-    font-family: 'dfds-bold';
     font-weight: 50;
-    font-size: 3.3vmin;
-    color: white;
-    /*    align-content: flex-start;
-    /*    display: inline-flex;*/
-    
-    flex-flow: row;
-    margin-bottom: 0.3em;
     margin-bottom: 0;
     margin-top: 0;
-    flex-flow: row;
-    width: 22%;
-    top: 0;
+    width: 42%;
 }
+
 main fieldset {
     border: none;
     font-family: "Helvetica";
