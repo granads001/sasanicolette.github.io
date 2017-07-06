@@ -393,13 +393,13 @@ main section {
     display:inline-flex;
         margin-bottom: 1em;
 }
-@media only screen 
-  and (min-device-width: 768px)  {
-main section {
-    display: inline;
-    margin-bottom: 1em;
-      }}
 
+@media all and (max-width:50.000em) {
+main section {
+margin-bottom: 1em;
+    display: block;
+    }
+}
 
 /*fieldset 2*/
 main fieldset h2 {
@@ -459,7 +459,7 @@ fieldset label {
 }
 
 @media screen 
-  and (min-device-width: 1200px) 
+  and (max-device-width: 1200px) 
   { 
       aside article {
     background-color: white;
@@ -481,14 +481,10 @@ fieldset label {
 }
 
 
-@media all and (max-width:50.000em) {
-main section {
-margin-bottom: 1em;
-    }
-}
+
 
 @media only screen 
-  and (min-device-width: 768px)  {
+  and (max-device-width: 768px)  {
       aside article {
     background-color: white;
     display: inline-block;
@@ -511,7 +507,7 @@ margin-bottom: 1em;
 
 
 @media only screen 
-  and (min-device-width: 320px) 
+  and (max-device-width: 320px) 
   {
             aside article {
     background-color: white;
