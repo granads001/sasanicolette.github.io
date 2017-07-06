@@ -456,8 +456,12 @@ margin-bottom: 1em;
     }
 }
 
-@media all and (max-width:71.875em) {
-aside article {
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+      aside article {
     background-color: white;
     display: inline-block;
     flex-flow: row;
@@ -473,6 +477,34 @@ aside article {
     overflow: hidden;
     justify-content: center;
 }
+
+}
+
+
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+            aside article {
+    background-color: white;
+    display: inline-block;
+    flex-flow: row;
+    animation: roll 3s;
+    animation-iteration-count: 1;
+    width: 31%;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    color: #bbb;
+    font-size: 1.5rem;
+    height: atuo;
+    overflow: hidden;
+    justify-content: center;
+}
+
+}
+
 }
 main button {
     display: inline-block;
@@ -518,7 +550,11 @@ main aside article img {
     width: 100%;
 
 }
-
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+}
 
 aside article {
     background-color: white;
