@@ -537,6 +537,24 @@ aside article {
     overflow: hidden;
     justify-content: center;
 }
+
+aside article: hover {
+    background-color: white;
+    display: inline-block;
+    flex-flow: row;
+    animation: roll 3s;
+    animation-iteration-count: 1;
+    width: 50%;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    color: #bbb;
+    font-size: 1.5rem;
+    height: atuo;
+    overflow: hidden;
+    justify-content: center;
+}
+
 article time {
     color: #6888ad;
     font-family: "Palanquin",
