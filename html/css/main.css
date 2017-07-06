@@ -9,7 +9,7 @@
     src: url("../fonts/SEGOEUI.TTF");
 }
 
-body {
+body::not(:first-child) {
     margin: 0;
     padding: 0;
     display: block;
