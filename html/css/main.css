@@ -404,7 +404,9 @@ main section h2 {
     width: 22%;
     top: 0;
 }
-
+main section {
+    display:inline-flex;
+}
 /*fieldset 2*/
 main fieldset h2 {
     background: url('banner.svg') no-repeat top left;
