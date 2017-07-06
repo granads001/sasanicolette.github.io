@@ -646,7 +646,8 @@ section article h4,
     list-style: none;
 }
 h4 {
-    margin: 1em;
+        margin-left: 1em;
+    margin-bottom: 0;
 }
 article h3 p {
     
