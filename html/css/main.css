@@ -664,15 +664,6 @@ main {
         width: 95%;
     }
  
-    main aside article img {
-        display: flex;
-        vertical-align: middle;
-        height: auto;
-        margin-right: 0;
-        width: 100%;
-        flex-direction: row;
-    }
- 
     main aside h2 {
         width: 50%;
         font-size: 5.3vmin;
@@ -879,13 +870,7 @@ footer img:hover {
     background-position: -3529px 0;
     transition: background 1s steps(55);
 }
-aside article aside {
-    display: inline-flex;
-    flex-flow: row;
-    align-items: center;
-    width: 100%;
-    margin-top: 0;
-}
+
 #main nav aside {
     margin: 1em auto;
 }
