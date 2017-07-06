@@ -260,6 +260,7 @@ main #main nav p {
     list-style: none;
     text-decoration: none;
     margin: 1em auto;
+    
 }
 
 #main nav h2 {
@@ -319,6 +320,7 @@ margin:0;
         -webkit-order: 2;
         order: 2;
         height: auto;
+        
     }
     
     #main > nav {
@@ -965,15 +967,15 @@ footer img:hover {
 
 /*-------*/
 .star {
-    width: 50px;
-    height: 50px;
+    width: 0.714em;
+    height: 0.714em;
     background: url("https://cssanimation.rocks/images/posts/steps/twitter_fave.png") no-repeat;
     background-position: -10px 0;
     cursor: pointer;
 }
 .like {
-    width: 70px;
-    height: 70px;
+    width: 1.000em;
+    height: 0.143em;
     background: url("https://abs.twimg.com/a/1446542199/img/t1/web_heart_animation.png") no-repeat;
     background-position: -20px;
     cursor: pointer;
