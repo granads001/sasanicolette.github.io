@@ -962,8 +962,8 @@ footer {
 footer img {
     background: #001f37;
     display: inline-block;
-    width: 70px;
-    height: 70px;
+      width: 1em;
+    height: 1em;
     margin: 0 10px;
     line-height: 70px;
     font-size: 35px;
