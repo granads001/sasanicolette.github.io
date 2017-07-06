@@ -393,6 +393,16 @@ main section {
     display:inline-flex;
         margin-bottom: 1em;
 }
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+main section {
+    display: inline;
+    margin-bottom: 1em;
+      }}
+
 
 /*fieldset 2*/
 main fieldset h2 {
