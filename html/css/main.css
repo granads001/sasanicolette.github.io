@@ -461,11 +461,17 @@ fieldset label {
 @media all and (max-width:91.545em) {
     aside article {
     width: 31%;
+    }
 }
     
-    @media all and (max-width:50.462em) {
+    @media all and (max-width:81.560em) {
     main aside article {
-    width: 50%;
+    width: 57%;
+}
+}
+   @media all and (max-width:61.673em) {
+    main aside article {
+    width: 46%;
 }
 }
 main button {
