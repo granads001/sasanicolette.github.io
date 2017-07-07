@@ -462,6 +462,11 @@ fieldset label {
     aside article {
     width: 31%;
 }
+    
+    @media all and (max-width:50.462em) {
+    main aside article {
+    width: 50%;
+}
 }
 main button {
     display: inline-block;
@@ -508,8 +513,7 @@ main aside article img {
 
 }
 
-
-aside article {
+ article {
     background-color: white;
     display: inline-block;
     flex-flow: row;
