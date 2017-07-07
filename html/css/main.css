@@ -474,7 +474,11 @@ fieldset label {
     width: 46%;
 }
 }
-
+   @media all and (max-width:46.05em) {
+    main aside article {
+    width: 93%;
+}
+}
 
 /* label:hover {
     background-color: #85BCE9;
