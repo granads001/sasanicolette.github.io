@@ -474,16 +474,7 @@ fieldset label {
     width: 46%;
 }
 }
-main button {
-    display: inline-block;
-    text-transform: uppercase;
-    font-family: "dfds-bold";
-    background: #f6861f;
-    border: solid;
-    color: white;
-    font-size: 85%;
-    padding: 0.5em;
-}
+
 
 /* label:hover {
     background-color: #85BCE9;
@@ -518,7 +509,16 @@ main aside article img {
     width: 100%;
 
 }
-
+main button {
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: "dfds-bold";
+    background: #f6861f;
+    border: solid;
+    color: white;
+    font-size: 85%;
+    padding: 0.5em;
+}
  article {
     background-color: white;
     display: inline-block;
