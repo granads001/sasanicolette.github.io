@@ -456,10 +456,8 @@ fieldset label {
         margin-bottom: 1em;
         display: inline;
     }
-}
-
-@media all and (max-width:88.462em) {
- aside article {
+    
+     aside article {
     background-color: white;
     display: inline-block;
     flex-flow: row;
@@ -475,6 +473,10 @@ fieldset label {
     overflow: hidden;
     justify-content: center;
 }
+}
+
+@media all and (max-width:88.462em) {
+
 
 }
 main button {
