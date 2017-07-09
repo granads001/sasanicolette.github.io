@@ -790,10 +790,15 @@ footer img:hover {
 
 /*-------*/
 .star {
-    width: 50px;
+    /*width: 50px;
     height: 50px;
     background: url("https://cssanimation.rocks/images/posts/steps/twitter_fave.png") no-repeat;
     background-position: -10px 0;
+    cursor: pointer;*/
+     width: 2.3em;
+    height: 2.3em;
+    background: url("https://cssanimation.rocks/images/posts/steps/twitter_fave.png") no-repeat;
+    background-position: -0.625em 0;
     cursor: pointer;
 }
 .like {
