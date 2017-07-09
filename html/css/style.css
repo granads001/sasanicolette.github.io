@@ -92,16 +92,7 @@ form {
             font-style: italic;
         }
     }
-    input[type="submit"] {
-        display: block;
-        width: 100%;
-        margin: 20px 0;
-        background: #41D873;
-        color: white;
-        border: 0;
-        padding: 20px;
-        font-size: 1.2rem;
-    }
+
 }
 
 * {
@@ -207,7 +198,22 @@ section fieldset input {
     width: 0.188em;
     z-index: 3;
 }
-
+ input[type="text"],
+ input[type="email"],
+input[type="password"] {
+            width: 100%;
+            border: 0;
+            padding: 20px 20px 20px 50px;
+            background: #eee;
+            &:focus {
+                // removing default focus style
+                outline: 0;
+                // adding new one
+                background: white;
+                & + label {
+                    opacity: 0;
+                }
+           
 
 /* zoekbalk: http://codepen.io/CBeghin/pen/HeuiF */
 
