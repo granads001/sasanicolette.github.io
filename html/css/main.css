@@ -791,21 +791,22 @@ footer img:hover {
     background-position: -0.625em 0;
     cursor: pointer;
 }
-.like {
-       width: 4em;
-    height: 4em;
-    background: url("https://abs.twimg.com/a/1446542199/img/t1/web_heart_animation.png") no-repeat;
-    background-position: -1.250em;
+.like{
+  width: 70px;
+  height: 70px;
+  background: url("https://abs.twimg.com/a/1446542199/img/t1/web_heart_animation.png") no-repeat;
+    background-position: -20px;
     cursor: pointer;
 }
-.anim-like {
-    background-position: -2820px -14;
-    transition: background 1s steps(28);
+.anim-like{
+  background-position: -2820px -14px;
+  transition: background 1s steps(28);
 }
-.anim {
-    background-position: -3529px 0;
-    transition: background 1s steps(55);
+.anim{
+  background-position: -3529px 0;
+  transition: background 1s steps(55);
 }
+
 #main nav aside {
     margin: 1em auto;
 }
