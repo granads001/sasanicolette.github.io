@@ -55,23 +55,36 @@
     <section>
         <a href="login.html" class="active" id="login-box-link">Login</a>
         <a href="registreren.html" id="signup-box-link">Sign Up</a>
-        <fieldset>
-            <label>Email</label>
+        <div>
+                <label for="first_name">First Name</label>
+                <input type="text" id="first_name" name="first_name" required placeholder=" " />
 
-            <input type="email" placeholder="Email" />
+            </div>
 
-            <label>Wachtwoord</label>
+            <div>
+                <label for="last_name">Last Name</label>
+                <input type="text" id="last_name" name="last_name" required placeholder=" " />
 
-            <input type="password" placeholder="Wachtwoord" />
+            </div>
 
-            <label>Herhaal wachtwoord</label>
+            <div>
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required placeholder=" " />
 
-            <input type="password" placeholder="Herhaal wachtwoord" />
+                <div class="requirements">
 
-            <button><a href="index.html">Registreren</a></button>
+                </div>
+            </div>
 
-            <a href="index.html">Wachtwoord vergeten?</a>
-        </fieldset>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required placeholder=" " pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" />
+
+                <div class="requirements">
+                    Your password must be at least 6 characters as well as contain at least one uppercase, one lowercase, and one number.
+                </div>
+            </div>
+
 
     </section>
     <footer>
