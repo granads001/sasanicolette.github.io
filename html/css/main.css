@@ -518,7 +518,7 @@ main button {
     font-size: 85%;
     padding: 0.5em;
 }
-main article {
+article {
     background-color: white;
     display: inline-block;
     flex-flow: row;
