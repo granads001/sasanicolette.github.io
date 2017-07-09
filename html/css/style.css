@@ -409,7 +409,7 @@ label {
 
 input[type="email"],
 input[type="password"] {
-    width: calc(50% - 22px);
+    width:80%;
     height: 45px;
     outline: none;
     border: 1px solid #ddd;
