@@ -22,9 +22,9 @@ body {
 form {
             &:valid {
                 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/check.svg);
-                background-size: 20px;
+                background-size: 1.250em;
                 background-repeat: no-repeat;
-                background-position: 20px 20px;
+                background-position: 1.250em 1.250em;
                 & + label {
                     opacity: 0;
                 }
@@ -38,7 +38,7 @@ form {
             &:invalid:focus:not(:placeholder-shown) {
                 & ~ .requirements {
                     max-height: 200px;
-                    padding: 0 30px 20px 50px;
+                    padding: 0 30px 1.250em 50px;
                 }
             }
         }
@@ -255,7 +255,7 @@ h3 {
     /*    float: left;*/
     width: 100%;
     height: auto;
-    margin-top: 20px;
+    margin-top: 1.250em;
     text-align: center;
 }
 
@@ -307,7 +307,7 @@ button a {
     border: none;
     outline: none;
     color: #fff;
-    font-size: 14px;
+    font-size: 0.875em;
     font-weight: normal;
     border-radius: 2px;
     text-transform: uppercase;
@@ -332,7 +332,6 @@ body section fieldset a:nth-child(2) {
 /* ---------- LOGIN ---------- */
 
 body aside {
-    /*    padding: 50px 0;*/
     background: #c9dbe9;
     background: -webkit-linear-gradient(top, #c9dbe9 0%, #fff 100%);
     background: -linear-gradient(top, #c9dbe9 0%, #fff 100%);
@@ -351,7 +350,7 @@ section {
     width: 12.500em;
     height: 3.750em;
     background: #fff;
-    border-radius: 200px;
+    border-radius: 12.500em;
     -moz-border-radius:3.750em;
     -webkit-border-radius: 3.750em;
     position: relative;
@@ -362,14 +361,14 @@ section {
     content: '';
     position: absolute;
     background: #fff;
-    width: 100px;
-    height: 80px;
+    width: 6.250em;
+    height: 5.000em;
     position: absolute;
-    top: -15px;
-    left: 10px;
-    border-radius: 100px;
-    -moz-border-radius: 100px;
-    -webkit-border-radius: 100px;
+    top: -0.938em;
+    left: 0.625em;
+    border-radius: 6.250em;
+    -moz-border-radius: 6.250em;
+    -webkit-border-radius: 6.250em;
     -webkit-transform: rotate(30deg);
     transform: rotate(30deg);
     -moz-transform: rotate(30deg);
@@ -402,7 +401,7 @@ section {
 }
 
 .x3 {
-    left: -250px;
+    left: -15.625em;
     top: -3.750em;
     -webkit-transform: scale(0.8);
     -moz-transform: scale(0.8);
@@ -415,8 +414,8 @@ section {
 }
 
 .x4 {
-    left: 470px;
-    top: -250px;
+    left: 29.375em;
+    top: -15.625em;
     -webkit-transform: scale(0.75);
     -moz-transform: scale(0.75);
     transform: scale(0.75);
@@ -428,13 +427,12 @@ section {
 }
 
 .x5 {
-    left: -150px;
-    top: -150px;
+    left: -9.375em;
+    top: -9.375emx;
     -webkit-transform: scale(0.8);
     -moz-transform: scale(0.8);
     transform: scale(0.8);
     opacity: 0.8;
-    /*opacity proportional to the size*/
     -webkit-animation: moveclouds 20s linear infinite;
     -moz-animation: moveclouds 20s linear infinite;
     -o-animation: moveclouds 20s linear infinite;
@@ -442,28 +440,28 @@ section {
 
 @-webkit-keyframes moveclouds {
     0% {
-        margin-left: 1000px;
+        margin-left: 62.500em;
     }
     100% {
-        margin-left: -1000px;
+        margin-left: -62.500em;
     }
 }
 
 @-moz-keyframes moveclouds {
     0% {
-        margin-left: 1000px;
+        margin-left: 62.500em;
     }
     100% {
-        margin-left: -1000px;
+        margin-left: -62.500em;
     }
 }
 
 @-o-keyframes moveclouds {
     0% {
-        margin-left: 1000px;
+        margin-left: 62.500em;
     }
     100% {
-        margin-left: -1000px;
+        margin-left: -62.500em;
     }
 }
 footer {
