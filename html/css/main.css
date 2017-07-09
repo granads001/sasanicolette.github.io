@@ -812,24 +812,3 @@ footer img:hover {
     margin: 1em auto;
 }
 
-@media screen and (max-width: 767px) {   
-    #main-img{
-    	background-image: url(http://subtlepatterns.com/patterns/dark_embroidery.png);
-    } 
-}
-
-@media screen and (min-width: 768px) {      
-    #main > article{      
-    	background-image: url(plaatjes/blind1.png);
-    } 
-} 
-@media (min-width: 992px) {      
-      #main-img{        
-          background-image: url(http://subtlepatterns.com/patterns/paisley.png);
-      } 
-}
-@media (min-width: 1200px) {    
-     #main-img{         
-         background-image: url(http://subtlepatterns.com/patterns/paisley.png);
-     } 
-}
