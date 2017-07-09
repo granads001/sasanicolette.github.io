@@ -176,7 +176,7 @@ input {
     ;
 }
 
-input #submit {
+input [type="submit"] {
     display: inline-block;
     text-transform: uppercase;
     font-family: "dfds-bold";
