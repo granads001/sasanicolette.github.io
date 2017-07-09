@@ -238,7 +238,7 @@ body main .image fieldset {
     flex-flow: row;
 }
 
-#main > article {
+/*#main > article {
     margin: 0;
     padding: 0;
     flex: 3 1 60%;
@@ -246,7 +246,7 @@ body main .image fieldset {
     order: 2;
     height: auto;
     background-image: url(plaatjes/blind/desktop.svg);
-}
+}*/
 
 #main > nav {
     background: white;
