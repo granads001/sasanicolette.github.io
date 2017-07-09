@@ -45,7 +45,7 @@ form {
             top: 22px;
             left: 20px;
         }
-        > input[type="text"],
+       /* > input[type="text"],
         > input[type="email"],
         > input[type="password"] {
             width: 100%;
@@ -60,7 +60,7 @@ form {
                 & + label {
                     opacity: 0;
                 }
-            }
+            }*/
             &:valid {
                 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/check.svg);
                 background-size: 20px;
@@ -155,7 +155,9 @@ nav ul li a, ul li {
 }
 
 
-input {
+input[type="text"],
+  input[type="email"],
+input[type="password"] {
     width: 80%;
     height: 45px;
     outline: none;
