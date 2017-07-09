@@ -17,7 +17,7 @@ body {
     max-width: 100vw;
 }
 
-ul.helper-text {
+/*ul.helper-text {
     display: block;
     margin-top: 6px;
     font-size: 12px;
@@ -25,7 +25,7 @@ ul.helper-text {
     color: red;
     li.valid {
         color: blue;
-    }
+    }*/
 }
 
 @import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
@@ -62,16 +62,7 @@ form {
             font-style: italic;
         }
     }
-    input[type="submit"] {
-        display: block;
-        width: 100%;
-        margin: 20px 0;
-        background: #41D873;
-        color: white;
-        border: 0;
-        padding: 20px;
-        font-size: 1.2rem;
-    }
+    
 }
 
 * {
@@ -162,66 +153,6 @@ input[type="submit"],
     padding: 0.5em;
 }
 
-
-
-section fieldset input {
-    background: none;
-    border: none;
-    color: #555;
-    display: inline-block;
-    flex-flow: row;
-    font-family: "helvetica";
-    font-size: 2.3vmin;
-    font-weight: 100;
-    height: 3.750em;
-    outline: none;
-    padding-right: 1.875em;
-    position: absolute;
-    right: 0;
-    top: 0;
-    transition: width .4s;
-    width: 0.188em;
-    z-index: 3;
-}
-
-
-/* zoekbalk: http://codepen.io/CBeghin/pen/HeuiF */
-
-body header input[type="text"] {
-    background: none;
-    border: none;
-    color: #555;
-    display: inline-block;
-    flex-flow: row;
-    font-family: "helvetica";
-    font-size: 2.3vmin;
-    font-weight: 100;
-    height: 3.750em;
-    outline: none;
-    padding-right: 5em;
-    position: absolute;
-    right: 0;
-    top: 0;
-    transition: width .4s;
-    width: 1em;
-    z-index: 3;
-}
-
-input[type="text"]:focus:hover {
-    border: 0.3em solid #BBB;
-}
-
-input[type="text"]:focus {
-    width: 21em;
-    z-index: 1;
-    border: 0.063em solid #BBB;
-    cursor: text;
-}
-
-
-input[type="submit"]:hover {
-    opacity: 0.8;
-}
 
 @media all and (max-width: 31.250em) {
     input {
