@@ -291,26 +291,6 @@ header {
     background-color: white;
 }
 
-@media all and (min-width: 31.250em) {
-    ul,
-    ul li {
-        list-style-type: none;
-        color: #85BCE9;
-        display: inline-flex;
-        font-family: 'helvetica';
-        flex-direction: row;
-        padding: 0;
-        text-align: center;
-    }
-    ul {
-        background-color: white;
-        list-style: none;
-        font-family: 'helvetica';
-        flex-direction: row;
-        padding: 1em;
-        text-align: center;
-    }
-}
 
 section {
     width: 100%;
