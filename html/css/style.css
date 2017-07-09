@@ -141,7 +141,7 @@ input[type="password"] {
     ;
 }
 
-input[type="submit"],
+input:last-child,
 {
     display: inline-block;
     text-transform: uppercase;
