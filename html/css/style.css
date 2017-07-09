@@ -276,8 +276,7 @@ label {
 
 
 @media all and (max-width:81.875em) {
-    input[type="email"],
-    input[type="password"] {
+  input[type="text"], input[type="email"], input[type="password"] {
         width: 80%;
         height: 3.814em;
         outline: none;
