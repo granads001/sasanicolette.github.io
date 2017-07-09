@@ -348,12 +348,12 @@ section {
 /*Time to finalise the cloud shape*/
 
 .cloud {
-    width: 200px;
-    height: 60px;
+    width: 12.500em;
+    height: 3.750em;
     background: #fff;
     border-radius: 200px;
-    -moz-border-radius: 200px;
-    -webkit-border-radius: 200px;
+    -moz-border-radius:3.750em;
+    -webkit-border-radius: 3.750em;
     position: relative;
 }
 
@@ -388,7 +388,7 @@ section {
 /*variable speed, opacity, and position of clouds for realistic effect*/
 
 .x2 {
-    left: 200px;
+    left: 3.750em;
     -webkit-transform: scale(0.6);
     -moz-transform: scale(0.6);
     transform: scale(0.6);
@@ -403,7 +403,7 @@ section {
 
 .x3 {
     left: -250px;
-    top: -200px;
+    top: -3.750em;
     -webkit-transform: scale(0.8);
     -moz-transform: scale(0.8);
     transform: scale(0.8);
