@@ -28,7 +28,7 @@ ul.helper-text {
 }
 
 @import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
-/*form {
+form {
     max-width: 450px;
     margin: 0 auto;
     // positioning context
@@ -102,7 +102,7 @@ ul.helper-text {
         padding: 20px;
         font-size: 1.2rem;
     }
-}*/
+}
 
 * {
     box-sizing: border-box;
@@ -153,9 +153,7 @@ li {
     text-decoration: none;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="password"] {
+input {
     width: 80%;
     height: 45px;
     outline: none;
@@ -178,10 +176,7 @@ input[type="password"] {
     ;
 }
 
-
-
-
-input [type="submit"] {
+input:nth-child(5) {
     display: inline-block;
     text-transform: uppercase;
     font-family: "dfds-bold";
@@ -277,36 +272,43 @@ input[type="submit"]:hover {
     }
 }
 
-/*https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
-
-header nav {
+nav {
     background-color: white;
     list-style: none;
-    border: 0.2em solid #eaedee;
-    border-bottom: 3em solid #eaedee;
+    border-top: 1px solid #BBB;
     list-style: none;
     list-style-type: none;
     font-family: 'helvetica';
     flex-direction: row;
+    padding 1.5em;
     text-decoration: none;
+    width: 100%;
 }
 
-nav ul li a,
-ul li {
-    display: inline-flex;
-    font-family: 'segoe ui';
-    flex-direction: row;
-    padding-left: 1em;
-    text-align: center;
-    justify-content: flex-end;
-    list-style: none;
-    font-weight: 100;
-    list-style-type: none;
-    color: #005184;
-    text-decoration: none;
-    font-size: 1rem;
-    lein-height: 1;
+header {
+    background-color: white;
+}
 
+@media all and (min-width: 31.250em) {
+    ul,
+    ul li {
+        list-style-type: none;
+        color: #85BCE9;
+        display: inline-flex;
+        font-family: 'helvetica';
+        flex-direction: row;
+        padding: 0;
+        text-align: center;
+    }
+    ul {
+        background-color: white;
+        list-style: none;
+        font-family: 'helvetica';
+        flex-direction: row;
+        padding: 1em;
+        text-align: center;
+    }
+}
 
 section {
     width: 100%;
