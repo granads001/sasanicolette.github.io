@@ -802,10 +802,10 @@ footer img:hover {
     cursor: pointer;
 }
 .like {
-    width: 70px;
-    height: 4em;
+       width: 2em;
+    height: 3em;
     background: url("https://abs.twimg.com/a/1446542199/img/t1/web_heart_animation.png") no-repeat;
-    background-position: -20px;
+    background-position: -1.250em;
     cursor: pointer;
 }
 .anim-like {
