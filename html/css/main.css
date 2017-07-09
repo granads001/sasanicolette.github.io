@@ -33,8 +33,10 @@ header {
 input[type="range"] {
     -webkit-appearance: none !important;
     width: 100%;
+    /*    height: 15px;*/
     height: 1.173em;
     background-color: #b3cbda;
+    /*    border-radius: 3px;*/
     border-radius: 0.235em;
     margin: auto;
     transition: all 0.3s ease;
@@ -51,6 +53,7 @@ input[type="range"]::-webkit-slider-thumb {
     background: #333940;
     border-radius: 7.818em;
     box-sizing: border-box;
+    /*    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.5);*/
     border: 0.469em solid #fff;
     transition: all 0.5s ease;
 }
@@ -228,7 +231,7 @@ body main .image fieldset {
 }
 
 #main {
-
+    min-height: 62.542em;
     margin: 0;
     padding: 0;
     padding-top: -2em;
@@ -238,16 +241,66 @@ body main .image fieldset {
     flex-flow: row;
 }
 
+
+/*
 #main > article {
     margin: 0;
     padding: 0;
+    flex: 3 1 60%;
     -webkit-order: 2;
     order: 2;
     height: auto;
     background-image: url(plaatjes/blind/desktop.svg);
-    width: 100%;
+}
+*/
+
+
+/*mobiel*/
+
+@media (max-width: 40.05em) {
+    .mobiel {
+        width: 100%;
+    }
+    .tab {
+        display: none;
+    }
+    .desk {
+        display: none;
+    }
 }
 
+
+}
+
+/*IPAD*/
+@media screen and (min-width: 48em) and(max-width: 67em) {
+    .mobiel {
+        display: none;
+    }
+
+    .tab {
+        max-width: 100%
+    }
+
+    .desk {
+        display: none;
+    }
+}
+
+/*DESKTOP*/
+@media screen and (min-width: 67em) {
+    .mobiel {
+        display: none;
+    }
+
+    .tab {
+        display: none;
+    }
+
+    .desk {
+        max-width: 100%;
+    }
+}
 #main > nav {
     background: white;
     flex: 1 6 20%;
@@ -256,7 +309,6 @@ body main .image fieldset {
     width: 100%;
     max-width: 15%;
 }
-
 main #main article p,
 main #main nav p {
     color: #005184;
@@ -269,26 +321,21 @@ main #main nav p {
     text-decoration: none;
     margin: 1em auto;
 }
-
 #main nav h2 {
     font-family: "dfds-bold";
 }
-
 #main nav h3 {
     font-family: "helvetica";
     font-weight: 100;
 }
 
-
 /*ipad
 @media only screen and (min-device-width: 48.000em) {
     /* STYLES GO HERE */
-
 #main nav h3,
 #main nav h2 {
     visibility: hidden;
 }
-
 
 }
 
@@ -304,15 +351,13 @@ main #main nav p {
         -webkit-flex-flow: column;
         flex-flow: column;
     }
-
     #main > article,
     #main > nav,
     {
         order -webkit-order: 0;
         order: 0;
     }
-
-    #main > article {
+    main #main article {
         margin: auto;
         padding: 0.235em;
         background: white;
@@ -320,8 +365,8 @@ main #main nav p {
         -webkit-order: 2;
         order: 2;
         height: auto;
+        width: 100%;
     }
-
     #main > nav {
         padding: 0.391em;
         background: white;
@@ -362,7 +407,10 @@ h1 {
 }
 h1 span {
     background: blue;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0,
+    0,
+    0,
+    0.7);
     font-family: "dfds-bold";
     font-size: 3.3vmin;
 }
@@ -427,6 +475,7 @@ header img {
 }
 fieldset input[type=checkbox] {
     position: absolute;
+    /*    /top: -9999px;*/
     top: -781.691em;
     left: -781.691em;
 }
@@ -480,10 +529,16 @@ fieldset label {
     color: white;
 } */
 checked fieldset > input[type=checkbox]:checked ~ div {
-    background: hsla(120, 80%, 50%, .8);
+    background: hsla(120,
+    80%,
+    50%,
+    .8);
 }
 fieldset > input[type=checkbox]:checked ~ div span {
-    background: hsla(310, 60%, 50%, .8);
+    background: hsla(310,
+    60%,
+    50%,
+    .8);
     padding: 1em;
 }
 fieldset input[type=checkbox]:checked + label {
@@ -685,7 +740,6 @@ main {
 @media all and (max-width: 93.750em) {
     aside:nth-child(n+2) {
         /* background-color: #eaedee; */
-
         font-family: "Helvetica";
         margin: 0;
         text-align: center;
@@ -785,29 +839,27 @@ footer img:hover {
 
 /*-------*/
 .star {
-     width: 2.3em;
+    width: 2.3em;
     height: 2.3em;
     background: url("https://cssanimation.rocks/images/posts/steps/twitter_fave.png") no-repeat;
     background-position: -0.625em 0;
     cursor: pointer;
 }
-.like{
-  width: 70px;
-  height: 70px;
-  background: url("https://abs.twimg.com/a/1446542199/img/t1/web_heart_animation.png") no-repeat;
+.like {
+    width: 70px;
+    height: 4em;
+    background: url("https://abs.twimg.com/a/1446542199/img/t1/web_heart_animation.png") no-repeat;
     background-position: -20px;
     cursor: pointer;
 }
-.anim-like{
-  background-position: -2820px -14px;
-  transition: background 1s steps(28);
+.anim-like {
+    background-position: -90em -0.875em;
+    transition: background 1s steps(28);
 }
-.anim{
-  background-position: -3529px 0;
-  transition: background 1s steps(55);
+.anim {
+    background-position: -3529px 0;
+    transition: background 1s steps(55);
 }
-
 #main nav aside {
     margin: 1em auto;
 }
-
