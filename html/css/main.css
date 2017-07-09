@@ -33,10 +33,10 @@ header {
 input[type="range"] {
     -webkit-appearance: none !important;
     width: 100%;
-    /*    height: 15px;*/
+
     height: 1.173em;
     background-color: #b3cbda;
-    /*    border-radius: 3px;*/
+
     border-radius: 0.235em;
     margin: auto;
     transition: all 0.3s ease;
@@ -53,7 +53,6 @@ input[type="range"]::-webkit-slider-thumb {
     background: #333940;
     border-radius: 7.818em;
     box-sizing: border-box;
-    /*    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.5);*/
     border: 0.469em solid #fff;
     transition: all 0.5s ease;
 }
@@ -240,19 +239,6 @@ body main .image fieldset {
     -webkit-flex-flow: row;
     flex-flow: row;
 }
-
-
-/*
-#main > article {
-    margin: 0;
-    padding: 0;
-    flex: 3 1 60%;
-    -webkit-order: 2;
-    order: 2;
-    height: auto;
-    background-image: url(plaatjes/blind/desktop.svg);
-}
-*/
 
 
 /*mobiel*/
@@ -475,7 +461,6 @@ header img {
 }
 fieldset input[type=checkbox] {
     position: absolute;
-    /*    /top: -9999px;*/
     top: -781.691em;
     left: -781.691em;
 }
@@ -694,7 +679,6 @@ main {
     padding-top: 0;
     margin: 1em auto;
     width: 95%;
-    /*     margin-top: 0.1 em; */
 }
 @media all and (max-width: 63.750em) {
     main article div {
