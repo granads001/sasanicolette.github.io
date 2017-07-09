@@ -150,16 +150,7 @@ input[type="password"] {
     ;
 }
 
-input [type="submit"] {
-     display: inline-block;
-    text-transform: uppercase;
-    font-family: "dfds-bold";
-    background: #f6861f;
-    border: solid;
-    color: white;
-    font-size: 85%;
-    padding: 0.5em;
-}
+
 
 section fieldset input {
     background: none;
@@ -269,7 +260,16 @@ section {
     text-align: center;
 }
 
-form input {}
+form input [type="submit"] {
+     display: inline-block;
+    text-transform: uppercase;
+    font-family: "dfds-bold";
+    background: #f6861f;
+    border: solid;
+    color: white;
+    font-size: 85%;
+    padding: 0.5em;
+}
 
 @media all and (min-width:59.688em) {
     section {
