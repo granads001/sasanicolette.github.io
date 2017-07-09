@@ -176,7 +176,10 @@ input {
     ;
 }
 
-input:nth-child(5) {
+
+
+
+input [type="submit"] {
     display: inline-block;
     text-transform: uppercase;
     font-family: "dfds-bold";
