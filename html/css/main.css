@@ -833,7 +833,30 @@ color: #6888ad;
 }
 
 /*  responsive */
-#main section .responsive{
+section .responsive{
+    max-width: 100%;
+    height: auto;
+}
+= section .desktop, .tablet, .mobiel{
+    display: none;
+}
+
+@media(min-width: 992px){
+ section .desktop{
+    display: block;
+  }  
+}
+@media(min-width: 667px) and (max-width: 992px){
+ section .tablet{
+    display: block;
+  }  
+}
+@media(max-width: 667px){
+  section .mobiel{
+    display: block;
+  }  
+   /* 
+    #main section .responsive{
     max-width: 100%;
     height: auto;
 }
@@ -855,4 +878,5 @@ color: #6888ad;
   #main section .mobiel{
     display: block;
   }  
+*/
 
