@@ -863,26 +863,29 @@ color: #6888ad;
 }
 
 /*  responsive */
-#main section .img-responsive{
+#main section .responsive{
     max-width: 100%;
     height: auto;
 }
-#main section .lg-visible, .sm-visible, .xs-visible{
+#main section .desktop, .tablet, .mobiel{
     display: none;
 }
 
+
+
+
 @media(min-width: 992px){
- #main section  .lg-visible{
+ #main section  .desktop{
     display: block;
   }  
 }
 @media(min-width: 667px) and (max-width: 992px){
- #main section  .sm-visible{
+ #main section  .tablet{
     display: block;
   }  
 }
 @media(max-width: 667px){
-  #main section .xs-visible{
+  #main section .mobiel{
     display: block;
   }  
 }
