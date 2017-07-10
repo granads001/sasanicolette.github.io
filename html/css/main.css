@@ -174,7 +174,7 @@ ul li {
 .lezen {
     width: 100%;
     height: 100%;
-   
+    /*    max-width: 120rem;*/
 }
 
 .image fieldset h2 {
@@ -205,6 +205,17 @@ body main .image fieldset {
 }
 
 
+/*.  fieldset p {
+    color: #005184;
+    font-family: 'helvetica';
+    font-size: 2.9vmin;
+    text-decoration: none;
+    font-weight: 100;
+    width: auto;
+    padding: 1em;
+    margin-right: 0;
+}*/
+
 
 /*https://css-tricks.com/text-blocks-over-image/*/
 
@@ -218,39 +229,6 @@ body main .image fieldset {
     margin-bottom: 1em;
 }
 
-section {
-    min-height: 62.542em;
-    margin: 0;
-    padding: 0;
-    padding-top: -2em;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-flow: row;
-    flex-flow: row;
-}
-
-section > nav {
-    background: white;
-    flex: 1 6 20%;
-    -webkit-order: 1;
-    order: 1;
-    width: 100%;
-    max-width: 15%;
-}
-main section article p,
-main  nav p {
-    color: #005184;
-    font-family: 'helvetica';
-    font-size: 1.8vh;
-    text-decoration: none;
-    font-weight: 100;
-    text-align: center;
-    list-style: none;
-    text-decoration: none;
-    margin: 1em auto;
-}/*
-
-
 #main {
     min-height: 62.542em;
     margin: 0;
@@ -262,6 +240,53 @@ main  nav p {
     flex-flow: row;
 }
 
+
+/*mobiel*/
+
+@media (max-width: 40.05em) {
+    .mobiel {
+        width: 100%;
+    }
+    .tab {
+        display: none;
+    }
+    .desk {
+        display: none;
+    }
+}
+
+
+}
+
+/*IPAD*/
+@media screen and (min-width: 48em) and(max-width: 67em) {
+    .mobiel {
+        display: none;
+    }
+
+    .tab {
+        max-width: 100%
+    }
+
+    .desk {
+        display: none;
+    }
+}
+
+/*DESKTOP*/
+@media screen and (min-width: 67em) {
+    .mobiel {
+        display: none;
+    }
+
+    .tab {
+        display: none;
+    }
+
+    .desk {
+        max-width: 100%;
+    }
+}
 #main > nav {
     background: white;
     flex: 1 6 20%;
@@ -281,18 +306,18 @@ main #main nav p {
     list-style: none;
     text-decoration: none;
     margin: 1em auto;
-}/*
+}
 #main nav h2 {
     font-family: "dfds-bold";
 }
 #main nav h3 {
     font-family: "helvetica";
     font-weight: 100;
-}*/
+}
 
 /*ipad
 @media only screen and (min-device-width: 48.000em) {
-    /* STYLES GO HERE 
+    /* STYLES GO HERE */
 #main nav h3,
 #main nav h2 {
     visibility: hidden;
@@ -300,12 +325,12 @@ main #main nav p {
 
 }
 
-/*iphone
+/*iphone*/
 @media only screen and (min-device-width: 23.438em) and (max-device-width: 41.688em) and (orientation: portrait) {
     /* STYLES GO HERE */
 }
 
-/* Too narrow to support three columns 
+/* Too narrow to support three columns */
 @media all and (max-width: 93.750em) {
     #main,
     #page {
@@ -340,7 +365,7 @@ main #main nav p {
         flex-direction: row;
         height: auto;
     }
-}*/
+}
 h1 {
     position: absolute;
     top: 18em;
@@ -484,6 +509,10 @@ fieldset label {
     }
 }
 
+/* label:hover {
+    background-color: #85BCE9;
+    color: white;
+} */
 checked fieldset > input[type=checkbox]:checked ~ div {
     background: hsla(120,
     80%,
@@ -716,15 +745,15 @@ aside {
 
 /* ---------- http://fortawesome.github.com/Font-Awesome/ ---------- */
 
-/* ---------- http://weloveiconfonts.com/ ---------- 
+/* ---------- http://weloveiconfonts.com/ ---------- */
 @import url(http://weloveiconfonts.com/api/?family=fontawesome);
 
 /* ---------- ERIC MEYER'S RESET CSS ---------- */
 
-/* ---------- http://meyerweb.com/eric/tools/css/reset/ ---------- 
+/* ---------- http://meyerweb.com/eric/tools/css/reset/ ---------- */
 @import url(http://meyerweb.com/eric/tools/css/reset/reset.css);
 
-/* ---------- FONTAWESOME ---------- 
+/* ---------- FONTAWESOME ---------- */
 [class*="fontawesome-"]:before {
     font-family: 'FontAwesome',
     sans-serif;
@@ -737,7 +766,7 @@ aside {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-*//*
+*/
 *:before,
 *:after {
     -moz-box-sizing: border-box;
@@ -757,7 +786,7 @@ a:hover {
 .clearfix:after {
     clear: both;
 }
-*/
+
 /*----------------------------------------FOOTER------------------------------------------*/
 footer {
     bottom: 0;
@@ -830,39 +859,20 @@ color: #6888ad;
     word-break: break-all;
     padding: 1em;
     display: flex;
+    justify-content: flex-end; 
 }
 
 /*  responsive */
-section .responsive{
-    max-width: 100%;
-    height: auto;
-}
-= section .desktop, .tablet, .mobiel{
-    display: none;
-}
-
-@media(min-width: 992px){
- section .desktop{
-    display: block;
-  }  
-}
-@media(min-width: 667px) and (max-width: 992px){
- section .tablet{
-    display: block;
-  }  
-}
-@media(max-width: 667px){
-  section .mobiel{
-    display: block;
-  }  
-   /* 
-    #main section .responsive{
+#main section .responsive{
     max-width: 100%;
     height: auto;
 }
 #main section .desktop, .tablet, .mobiel{
     display: none;
 }
+
+
+
 
 @media(min-width: 992px){
  #main section .desktop{
@@ -878,5 +888,4 @@ section .responsive{
   #main section .mobiel{
     display: block;
   }  
-*/
-
+}
