@@ -833,17 +833,17 @@ color: #6888ad;
 }
 
 @media(min-width: 992px){
- #main section:last-child{
+ #main section img:last-child{
     display: block;
   }  
 }
 @media(min-width: 667px) and (max-width: 992px){
- #main section:nth-child(2){
+ #main section img:nth-child(2){
     display: block;
   }  
 }
 @media(max-width: 667px){
-  #main section:first-child{
+  #main section img:first-child{
     display: block;
   }  
 }
