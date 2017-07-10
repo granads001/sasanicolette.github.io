@@ -875,12 +875,12 @@ color: #6888ad;
 
 
 @media(min-width: 992px){
- #main section  .desktop{
+ #main section .desktop{
     display: block;
   }  
 }
 @media(min-width: 667px) and (max-width: 992px){
- #main section  .tablet{
+ #main section .tablet{
     display: block;
   }  
 }
