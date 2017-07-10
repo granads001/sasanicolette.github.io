@@ -847,3 +847,29 @@ footer img:hover {
 #main nav aside {
     margin: 1em auto;
 }
+
+
+/*  responsive */
+.img-responsive{
+    max-width: 100%;
+    height: auto;
+}
+.lg-visible, .sm-visible, .xs-visible{
+    display: none;
+}
+
+@media(min-width: 992px){
+  .lg-visible{
+    display: block;
+  }  
+}
+@media(min-width: 667px) and (max-width: 992px){
+  .sm-visible{
+    display: block;
+  }  
+}
+@media(max-width: 667px){
+  .xs-visible{
+    display: block;
+  }  
+}
