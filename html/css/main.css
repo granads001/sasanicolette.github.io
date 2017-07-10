@@ -848,6 +848,19 @@ footer img:hover {
     margin: 1em auto;
 }
 
+main a {
+   
+color: #6888ad;
+    font-family: "Palanquin", Helvetica, Arial, sans-serif;
+    letter-spacing: 0.023em;
+    line-height: 1.564em;
+    font-size: 1.5vh;
+    font-weight: 100;
+    word-break: break-all;
+    padding: 1em;
+    display: flex;
+    justify-content: flex-end; 
+}
 
 /*  responsive */
 #main section .img-responsive{
