@@ -884,6 +884,9 @@ color: #6888ad;
   }  
 }
 @media(max-width: 667px){
+    #main section .desktop{
+        display:none;
+    }
   #main section .mobiel{
     display: block;
   }  
