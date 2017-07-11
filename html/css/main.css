@@ -805,12 +805,12 @@ img:nth-of-type(2),
 section img:first-of-type {
     display: none;
 }
-@media((min-width: 65em)) {
+@media((min-width: 63em)) {
     section img:last-of-type {
         display: block;
     }
 }
-@media(min-width: 41.688em) and (max-width: 65.000em) {
+@media(min-width: 41.688em) and (max-width: 63em) {
     section img:nth-of-type(2) {
         display: block;
     }
