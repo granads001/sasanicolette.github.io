@@ -421,12 +421,6 @@ fieldset label {
     color: #ffffff;
     justify-content: center;
 }
-@media all and (max-width:50.000em) {
-    main section {
-        margin-bottom: 1em;
-        display: inline;
-    }
-}
 @media all and (max-width:91.545em) {
     aside article {
         width: 31%;
@@ -571,6 +565,7 @@ article h3 p {
 }
 article h3 {
     margin: 0;
+    display: inline-flex;
 }
 @media all and (min-width: 106.125em) {
     main fieldset p,
@@ -754,6 +749,9 @@ footer img {
 footer img:hover {
     cursor: pointer;
 }
+main section nav {
+    display: inline-flex;
+}
 
 /*-------*/
 .star {
@@ -764,18 +762,17 @@ footer img:hover {
     cursor: pointer;
 }
 .like {
-    width: 70px;
+    width: 5.932em;
     height: 4em;
     background: url("https://abs.twimg.com/a/1446542199/img/t1/web_heart_animation.png") no-repeat;
-    background-position: -20px;
     cursor: pointer;
 }
 .anim-like {
-    background-position: -90em -0.875em;
+    background-position: -174.983em -1.186em;
     transition: background 1s steps(28);
 }
 .anim {
-    background-position: -3529px 0;
+    background-position: -174.983em 0;
     transition: background 1s steps(55);
 }
 main a {
@@ -791,6 +788,9 @@ main a {
     word-break: break-all;
     padding: 1em;
     display: flex;
+}
+nav section {
+    justify-content: center;
 }
 
 /*  responsive */
