@@ -293,8 +293,8 @@ body main .image fieldset {
     width: 100%;
     max-width: 15%;
 }
-main #main article p,
-main #main nav p {
+main article p,
+main nav p {
     color: #005184;
     font-family: 'helvetica';
     font-size: 1.8vh;
@@ -305,64 +305,12 @@ main #main nav p {
     text-decoration: none;
     margin: 1em auto;
 }
-#main nav h2 {
+nav h2 {
     font-family: "dfds-bold";
 }
-#main nav h3 {
+nav h3 {
     font-family: "helvetica";
     font-weight: 100;
-}
-
-/*ipad
-@media only screen and (min-device-width: 48.000em) {
-    /* STYLES GO HERE */
-#main nav h3,
-#main nav h2 {
-    visibility: hidden;
-}
-
-}
-
-/*iphone*/
-@media only screen and (min-device-width: 23.438em) and (max-device-width: 41.688em) and (orientation: portrait) {
-    /* STYLES GO HERE */
-}
-
-/* Too narrow to support three columns */
-@media all and (max-width: 93.750em) {
-    #main,
-    #page {
-        -webkit-flex-flow: column;
-        flex-flow: column;
-    }
-    #main > article,
-    #main > nav,
-    {
-        order -webkit-order: 0;
-        order: 0;
-    }
-    main #main article {
-        margin: auto;
-        padding: 0.235em;
-        background: white;
-        flex: 3 1 60%;
-        -webkit-order: 2;
-        order: 2;
-        height: auto;
-        width: 100%;
-    }
-    #main > nav {
-        padding: 0.391em;
-        background: white;
-        flex: 1 6 20%;
-        -webkit-order: 1;
-        order: 1;
-        width: 100%;
-        max-width: 100%;
-        display: inline-flex;
-        flex-direction: row;
-        height: auto;
-    }
 }
 h1 {
     position: absolute;
@@ -391,10 +339,7 @@ h1 {
 }
 h1 span {
     background: blue;
-    background: rgba(0,
-    0,
-    0,
-    0.7);
+    background: rgba(0, 0, 0, 0.7);
     font-family: "dfds-bold";
     font-size: 3.3vmin;
 }
@@ -508,16 +453,10 @@ fieldset label {
     color: white;
 } */
 checked fieldset > input[type=checkbox]:checked ~ div {
-    background: hsla(120,
-    80%,
-    50%,
-    .8);
+    background: hsla(120, 80%, 50%, .8);
 }
 fieldset > input[type=checkbox]:checked ~ div span {
-    background: hsla(310,
-    60%,
-    50%,
-    .8);
+    background: hsla(310, 60%, 50%, .8);
     padding: 1em;
 }
 fieldset input[type=checkbox]:checked + label {
@@ -718,6 +657,7 @@ main {
 @media all and (max-width: 93.750em) {
     aside:nth-child(n+2) {
         /* background-color: #eaedee; */
+
         font-family: "Helvetica";
         margin: 0;
         text-align: center;
@@ -838,9 +778,6 @@ footer img:hover {
     background-position: -3529px 0;
     transition: background 1s steps(55);
 }
-#main nav aside {
-    margin: 1em auto;
-}
 main a {
     color: #6888ad;
     font-family: "Palanquin",
@@ -857,61 +794,32 @@ main a {
 }
 
 /*  responsive */
-
-/*
-#main section .responsive{
-    max-width: 100%;
-    height: auto;
-}
-#main section .desktop, .tablet, .mobiel{
-    display: none;
-}
-
-@media(min-width: 992px){
- #main section .desktop{
-    display: block;
-  }
-}
-@media(min-width: 667px) and (max-width: 992px){
- #main section .tablet{
-    display: block;
-  }
-}
-@media(max-width: 667px){
-    #main section .desktop{
-        display:none;
-    }
-  #main section .mobiel{
-    display: block;
-  }
-}
-*/
-#main section img:last-of-type,
+section img:last-of-type,
 img:nth-of-type(2),
-img:first-of-type {
+section img:first-of-type {
     max-width: 100%;
     height: auto;
 }
-#main section img:last-of-type,
+section img:last-of-type,
 img:nth-of-type(2),
 section img:first-of-type {
     display: none;
 }
 @media(min-width: 992px) {
-    #main section img:last-of-type {
+    section img:last-of-type {
         display: block;
     }
 }
 @media(min-width: 667px) and (max-width: 992px) {
-    #main section img:nth-of-type(2) {
+    section img:nth-of-type(2) {
         display: block;
     }
 }
 @media(max-width: 667px) {
-    #main section img:last-of-type {
+    section img:last-of-type {
         display:none;
     }
-    #main section img:first-of-type {
+    section img:first-of-type {
         display: block;
     }
 }
