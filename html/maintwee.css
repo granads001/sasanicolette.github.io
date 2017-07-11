@@ -715,9 +715,6 @@ footer img:hover {
 main section nav {
     display: inline-flex;
 }
-main section {
-    display: inline-flex;
-}
 
 /*-------*/
 .star {
