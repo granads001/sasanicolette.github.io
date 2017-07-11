@@ -33,10 +33,8 @@ header {
 input[type="range"] {
     -webkit-appearance: none !important;
     width: 100%;
-
     height: 1.173em;
     background-color: #b3cbda;
-
     border-radius: 0.235em;
     margin: auto;
     transition: all 0.3s ease;
@@ -422,10 +420,6 @@ main aside h2 {
     margin-top: 0;
     flex-flow: row;
     width: 22%;
-}
-main section {
-    display: inline-flex;
-    margin-bottom: 1em;
 }
 
 /*fieldset 2*/
@@ -847,11 +841,12 @@ footer img:hover {
 #main nav aside {
     margin: 1em auto;
 }
-
 main a {
-   
-color: #6888ad;
-    font-family: "Palanquin", Helvetica, Arial, sans-serif;
+    color: #6888ad;
+    font-family: "Palanquin",
+    Helvetica,
+    Arial,
+    sans-serif;
     letter-spacing: 0.023em;
     line-height: 1.564em;
     font-size: 1.5vh;
@@ -862,6 +857,8 @@ color: #6888ad;
 }
 
 /*  responsive */
+
+/*
 #main section .responsive{
     max-width: 100%;
     height: auto;
@@ -870,18 +867,15 @@ color: #6888ad;
     display: none;
 }
 
-
-
-
 @media(min-width: 992px){
  #main section .desktop{
     display: block;
-  }  
+  }
 }
 @media(min-width: 667px) and (max-width: 992px){
  #main section .tablet{
     display: block;
-  }  
+  }
 }
 @media(max-width: 667px){
     #main section .desktop{
@@ -889,5 +883,35 @@ color: #6888ad;
     }
   #main section .mobiel{
     display: block;
-  }  
+  }
+}
+*/
+#main section img:last-of-type,
+img:nth-of-type(2),
+img:first-of-type {
+    max-width: 100%;
+    height: auto;
+}
+#main section img:last-of-type,
+img:nth-of-type(2),
+section img:first-of-type {
+    display: none;
+}
+@media(min-width: 992px) {
+    #main section img:last-of-type {
+        display: block;
+    }
+}
+@media(min-width: 667px) and (max-width: 992px) {
+    #main section img:nth-of-type(2) {
+        display: block;
+    }
+}
+@media(max-width: 667px) {
+    #main section img:last-of-type {
+        display:none;
+    }
+    #main section img:first-of-type {
+        display: block;
+    }
 }
