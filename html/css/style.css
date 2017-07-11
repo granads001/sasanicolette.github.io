@@ -244,7 +244,7 @@ section a {
     margin: 2em;
 }
 
-body section a:active {
+section a:active {
     display: inline-flex;
     flex-flow: row;
     justify-content: center;
