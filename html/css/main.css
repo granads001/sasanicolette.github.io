@@ -718,6 +718,11 @@ main section nav {
 main section {
     display: inline-flex;
 }
+@media(max-width: 667px) {
+    main section {
+        display: inline-block;
+    }
+}
 
 /*-------*/
 .star {
