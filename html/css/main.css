@@ -382,6 +382,23 @@ fieldset label {
     main aside article {
         width: 47%;
     }
+    
+    fieldset label {
+    display: inline-flex;
+    padding: 1em 3em 1em 3em;
+    width: 4em;
+    background-color: #eaf5ff;
+    font-family: "dfds-bold";
+    font-size: 3.4vmin;
+    flex-flow: row wrap;
+    border-color: #d3d4d4;
+    border-radius: 0.078em;
+    box-shadow: 0.391em 0.391em 0.391em #d3d4d4;
+    margin: 0.8em;
+    color: #ffffff;
+    justify-content: center;
+}
+    
 }
 
 @media all and (max-width:61.673em) {
