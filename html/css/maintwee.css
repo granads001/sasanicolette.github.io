@@ -682,10 +682,7 @@ section img:first-of-type {
     display: none;
 }
 
-
-
-
-/* @media(min-width: 992px) {
+ @media(min-width: 992px) {
     section img:last-of-type {
         display: block;
     }
@@ -702,9 +699,9 @@ section img:first-of-type {
     section img:first-of-type {
         display: block;
     }
-} */
+} 
 
-@media(min-width: 62.000em) {
+/* @media(min-width: 62.000em) {
     section img:last-of-type {
         display: block;
     }
@@ -721,7 +718,7 @@ section img:first-of-type {
     section img:first-of-type {
         display: block;
     }
-}
+} */
 /*----------------------------------------FOOTER------------------------------------------*/
 footer {
     bottom: 0;
