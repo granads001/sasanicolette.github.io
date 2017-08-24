@@ -47,35 +47,32 @@
 
 
 
-    <section>
-        <a href="login.html" class="active" id="login-box-link">Login</a>
+   <section>
+           <a href="login.html" class="active" id="login-box-link">Login</a>
         <a href="registreren.html" id="signup-box-link">Sign Up</a>
-        <form>
+            <form method="get" action="overzichtspagina.html">
+                <fieldset>
+                    <legend>Gegevens</legend>
+                    
+                         <label for="ussername">Gebruikersnaam</label>
+                         <input type="text" name="username" id="username" required>
+                       
+                        <label for="email">E-mailadres</label>
+                        <input type="email" name="email" id="email" required>
+                    
+                        <label for="password">Wachtwoord</label>
+                        <input type="password" name="password" id="password" required>
+                        
+                       <label for="pas-repeat">Herhaal Wachtwoord</label>
+                        <input type="password" name="password-repeat" id="pas-repeat" required>
+                        
+          
+                </fieldset>
 
-
-            <label for="first_name">First Name</label>
-            <input type="text" id="first_name" name="first_name" required placeholder=" " />
-
-
-            <label for="last_name">Last Name</label>
-            <input type="text" id="last_name" name="last_name" required placeholder=" " />
-
-
-            <label for="email">Email Address</label>
-            <input type="email" id="email" name="email" required placeholder=" " />
-
-            <div class="requirements"></div>
-
-            <label for="password">Password</label>
-            <input type="password" id="password" name="password" required placeholder=" " pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" />
-
-            <div class="requirements"></div>
-
-            <input type="submit" value="Sign Up" />
-
-        </form>
-     
-    </section>
+                <a href="index.html">Annuleren</a>
+                <input type="submit" name="submit" value="Registreren">
+            </form>
+        </section>
 
     <footer>
 
