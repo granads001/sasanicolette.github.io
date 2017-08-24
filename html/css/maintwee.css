@@ -561,7 +561,7 @@ main section nav {
   transition: background 1s steps(28);
 }
 .anim{
-  background-position: -3529px 0;/*-3529px*/
+  background-position: -128.312em 0;/*-3529px*/
   transition: background 1s steps(55);
 }
 
