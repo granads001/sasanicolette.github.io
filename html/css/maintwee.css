@@ -557,7 +557,7 @@ main section nav {
     cursor: pointer;
 }
 .anim-like{
-  background-position: -2820px -0.809em;/*-14px*/
+  background-position: -2820px -1.809em;/*-14px*/
   transition: background 1s steps(28);
 }
 .anim{
