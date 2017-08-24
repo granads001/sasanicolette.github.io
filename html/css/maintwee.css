@@ -95,7 +95,7 @@ header nav {
     text-decoration: none;
 }
 
-nav ul li a,
+/* nav ul li a,
 ul li {
     display: inline-flex;
     font-family: 'segoe ui';
@@ -111,17 +111,16 @@ ul li {
     font-size: 1rem;
     lein-height: 1;
 }
+ */
 
 
-/*-------*/
-
-.lezen {
+/* .lezen {
     width: 100%;
     height: 100%;
     /*    max-width: 120rem;*/
-}
+} */
 
-.image fieldset h2 {
+/* .image fieldset h2 {
     background-image: url(plaatjes/banner.svg);
     font-family: 'dfds-bold';
     font-size: 5.0vmin;
@@ -132,9 +131,9 @@ ul li {
     width: auto;
     top: 0;
     align-items: stretch;
-}
+} */
 
-body main .image fieldset {
+/* body main .image fieldset {
     display: inline-flex;
     flex-direction: row;
     border: none;
@@ -147,7 +146,7 @@ body main .image fieldset {
     padding: 0;
     width: 50%;
 }
-
+ */
 
 /*.  fieldset p {
     color: #005184;
@@ -163,15 +162,15 @@ body main .image fieldset {
 
 /*https://css-tricks.com/text-blocks-over-image/*/
 
-.image {
-    /*    position: relative;*/
+/* .image {
+       position: relative;
     width: 100%;
     height: auto;
     flex-direction: row;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1em;
-}
+} */
 
 main article p,
 main nav p {
