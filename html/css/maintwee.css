@@ -546,18 +546,18 @@ main section nav {
     width: 2.890em;
   height: 2.890em;
   background: url("https://cssanimation.rocks/images/posts/steps/twitter_fave.png") no-repeat;
-    background-position: -10px 0;
+    background-position: -1.422em 0; /*-10px*/
     cursor: pointer;
 }
 .like{
   width: 3.046em;
   height: 3.046em;
   background: url("https://abs.twimg.com/a/1446542199/img/t1/web_heart_animation.png") no-repeat;
-    background-position: -20px;
+    background-position: 1.156em;/*-20px*/
     cursor: pointer;
 }
 .anim-like{
-  background-position: -2820px -14px;
+  background-position: -2820px -0.809em;/*-14px*/
   transition: background 1s steps(28);
 }
 .anim{
