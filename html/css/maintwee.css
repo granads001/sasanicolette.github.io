@@ -543,8 +543,8 @@ main section nav {
   display: inline-flex; 
 } */
 .star{
-    width: 1.890em;
-  height: 1.890em;
+    width: 2.890em;
+  height: 2.890em;
   background: url("https://cssanimation.rocks/images/posts/steps/twitter_fave.png") no-repeat;
     background-position: -10px 0;
     cursor: pointer;
