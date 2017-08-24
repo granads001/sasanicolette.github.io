@@ -771,8 +771,8 @@ main section {
     cursor: pointer;
 }
 .like{
-  width: 70px;
-  height: 70px;
+  width: 3.046em;
+  height: 3.046em;
   background: url("https://abs.twimg.com/a/1446542199/img/t1/web_heart_animation.png") no-repeat;
     background-position: -20px;
     cursor: pointer;
