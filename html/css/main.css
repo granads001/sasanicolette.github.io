@@ -736,7 +736,7 @@ main section nav {
 main section {
     display: inline-flex;
 }
-@media(max-width: 667px) {
+@media(max-width: 56.25em) {
     main section {
         display: inline-block;
     }
