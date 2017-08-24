@@ -129,7 +129,7 @@ main nav p {
     text-align: center;
     list-style: none;
     text-decoration: none;
-    margin: 1em auto;
+    margin: 1em 1em auto;
 }
 
 nav h2 {
