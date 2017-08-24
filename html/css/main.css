@@ -383,7 +383,21 @@ fieldset label {
         width: 47%;
     }
     
-    fieldset label {
+ 
+    
+}
+
+@media all and (max-width:61.673em) {
+    main aside article {
+        width: 46%;
+    }
+}
+
+@media all and (max-width:46.05em) {
+    main aside article {
+        width: 93%;
+    }
+       fieldset label {
     display: inline-flex;
     padding: 1em 3em 1em 3em;
     width: 4em;
@@ -398,19 +412,6 @@ fieldset label {
     color: #ffffff;
     justify-content: center;
 }
-    
-}
-
-@media all and (max-width:61.673em) {
-    main aside article {
-        width: 46%;
-    }
-}
-
-@media all and (max-width:46.05em) {
-    main aside article {
-        width: 93%;
-    }
 }
 
 
