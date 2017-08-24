@@ -546,7 +546,7 @@ main section nav {
     width: 2.890em;
   height: 2.890em;
   background: url("https://cssanimation.rocks/images/posts/steps/twitter_fave.png") no-repeat;
-    background-position: -1.422em 0; /*-10px*/
+    background-position: -.984em 0; /*-10px*/
     cursor: pointer;
 }
 .like{
