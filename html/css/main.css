@@ -533,10 +533,8 @@ article h3 p {
     Arial,
     sans-serif;
     font-size: 3.0vh;
-    /*justify-content: flex-end;*/
-
     margin: 0.4em;
-    /*width: 100%;*/
+ 
 }
 article h3 {
     margin: 0;
@@ -743,27 +741,29 @@ main section {
 }
 
 /*-------*/
-.star {
-    width: 2.3em;
-    height: 2.3em;
-    background: url("https://cssanimation.rocks/images/posts/steps/twitter_fave.png") no-repeat;
-    background-position: -0.625em 0;
+.star{
+    width: 50px;
+  height: 50px;
+  background: url("https://cssanimation.rocks/images/posts/steps/twitter_fave.png") no-repeat;
+    background-position: -10px 0;
     cursor: pointer;
 }
-.like {
-    width: 3.932em;
-    height: 4em;
-    background: url("https://abs.twimg.com/a/1446542199/img/t1/web_heart_animation.png") no-repeat;
+.like{
+  width: 70px;
+  height: 70px;
+  background: url("https://abs.twimg.com/a/1446542199/img/t1/web_heart_animation.png") no-repeat;
+    background-position: -20px;
     cursor: pointer;
 }
-.anim-like {
-    background-position: -174.983em -1.186em;
-    transition: background 1s steps(28);
+.anim-like{
+  background-position: -2820px -14px;
+  transition: background 1s steps(28);
 }
-.anim {
-    background-position: -174.983em 0;
-    transition: background 1s steps(55);
+.anim{
+  background-position: -3529px 0;
+  transition: background 1s steps(55);
 }
+
 main a {
     color: #6888ad;
     font-family: "Palanquin",
