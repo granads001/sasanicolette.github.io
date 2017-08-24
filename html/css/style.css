@@ -18,59 +18,9 @@ body {
 }
 }
 
-@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
-/* form {
-    
-    
-            &:valid {
-                background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/check.svg);
-                background-size: 1.250em;
-                background-repeat: no-repeat;
-                background-position: 1.250em 1.250em;
-                & + label {
-                    opacity: 0;
-                }
-                
-                
-      }
-   
-    
-    &:invalid:not(:focus):not(:placeholder-shown) {
-                background: pink;
-                & + label {
-                    opacity: 0;
-            }
-        
-        
-            
-            &:invalid:focus:not(:placeholder-shown) {
-                & ~ .requirements {
-                    max-height: 12.500em;
-                    padding: 0 1.875em 1.250em 3.125em;
-                }
-            
-        
-        .requirements {
-            padding: 0 2.542em 0 4.237em;
-            color: #999;
-            max-height: 0;
-            transition: 0.28s;
-            overflow: hidden;
-            color: red;
-            font-style: italic;
-        }
 
- */
 
-* {
-    box-sizing: border-box;
-}
 
-&.valid {
-    input {
-        border: 0.125em solid blue;
-    }
-}
 
 body header img {
     display: inline-block;
