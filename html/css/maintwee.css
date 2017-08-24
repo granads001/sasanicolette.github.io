@@ -577,8 +577,7 @@ main h1 {
 nav section {
     justify-content: center;
 }
-
-/*  responsive */
+/*  responsive *//* 
 section img:last-of-type,
 img:nth-of-type(2),
 section img:first-of-type {
@@ -602,6 +601,37 @@ section img:first-of-type {
     }
 }
 @media(max-width: 667px) {
+    section img:last-of-type {
+        display: none;
+    }
+    section img:first-of-type {
+        display: block;
+    }
+} */
+/*  responsive */
+section img:last-of-type,
+img:nth-of-type(2),
+section img:first-of-type {
+    max-width: 100%;
+    height: auto;
+}
+section img:last-of-type,
+img:nth-of-type(2),
+section img:first-of-type {
+    display: none;
+}
+
+ @media(min-width: 57em) {
+    section img:last-of-type {
+        display: block;
+    }
+}
+@media(min-width: 38.266em) and (max-width: 57em) {
+    section img:nth-of-type(2) {
+        display: block;
+    }
+}
+@media(max-width: 38.266em) {
     section img:last-of-type {
         display: none;
     }
