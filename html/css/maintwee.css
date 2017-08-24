@@ -539,9 +539,9 @@ main section nav {
 }
 
 /*-------*/
-aside{
+/* aside{
   display: inline-flex; 
-}
+} */
 .star{
     width: 1.890em;
   height: 1.890em;
