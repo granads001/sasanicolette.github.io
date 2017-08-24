@@ -542,17 +542,16 @@ main section nav {
 aside{
   display: inline-flex; 
 }
-
 .star{
-    width: 50px;
-  height: 50px;
+    width: 1.890em;
+  height: 1.890em;
   background: url("https://cssanimation.rocks/images/posts/steps/twitter_fave.png") no-repeat;
     background-position: -10px 0;
     cursor: pointer;
 }
 .like{
-  width: 70px;
-  height: 70px;
+  width: 3.046em;
+  height: 3.046em;
   background: url("https://abs.twimg.com/a/1446542199/img/t1/web_heart_animation.png") no-repeat;
     background-position: -20px;
     cursor: pointer;
@@ -565,6 +564,7 @@ aside{
   background-position: -3529px 0;
   transition: background 1s steps(55);
 }
+
 
 main h1 {
     color: #6888ad;
@@ -583,37 +583,7 @@ main h1 {
 nav section {
     justify-content: center;
 }
-/*  responsive *//* 
-section img:last-of-type,
-img:nth-of-type(2),
-section img:first-of-type {
-    max-width: 100%;
-    height: auto;
-}
-section img:last-of-type,
-img:nth-of-type(2),
-section img:first-of-type {
-    display: none;
-}
 
- @media(min-width: 992px) {
-    section img:last-of-type {
-        display: block;
-    }
-}
-@media(min-width: 667px) and (max-width: 992px) {
-    section img:nth-of-type(2) {
-        display: block;
-    }
-}
-@media(max-width: 667px) {
-    section img:last-of-type {
-        display: none;
-    }
-    section img:first-of-type {
-        display: block;
-    }
-} */
 /*  responsive */
 section img:last-of-type,
 img:nth-of-type(2),
