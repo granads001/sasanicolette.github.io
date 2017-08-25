@@ -382,9 +382,6 @@ fieldset label {
     main aside article {
         width: 47%;
     }
-    
- 
-    
 }
 
 @media all and (max-width:61.673em) {
@@ -397,21 +394,21 @@ fieldset label {
     main aside article {
         width: 93%;
     }
-       fieldset label {
-    display: inline-flex;
-    padding: 1em 3em 1em 3em;
-    width: 4em;
-    background-color: #eaf5ff;
-    font-family: "dfds-bold";
-    font-size: 3.4vmin;
-    flex-flow: row wrap;
-    border-color: #d3d4d4;
-    border-radius: 0.078em;
-    box-shadow: 0.391em 0.391em 0.391em #d3d4d4;
-    margin: 0.8em;
-    color: #ffffff;
-    justify-content: center;
-}
+    fieldset label {
+        display: inline-flex;
+        padding: 1em 3em 1em 3em;
+        width: 4em;
+        background-color: #eaf5ff;
+        font-family: "dfds-bold";
+        font-size: 3.4vmin;
+        flex-flow: row wrap;
+        border-color: #d3d4d4;
+        border-radius: 0.078em;
+        box-shadow: 0.391em 0.391em 0.391em #d3d4d4;
+        margin: 0.8em;
+        color: #ffffff;
+        justify-content: center;
+    }
 }
 
 
@@ -534,7 +531,6 @@ article h3 p {
     sans-serif;
     font-size: 3.0vh;
     margin: 0.4em;
- 
 }
 article h3 {
     margin: 0;
@@ -741,30 +737,32 @@ main section {
 }
 
 /*-------*/
-
-.star{
+.star {
     width: 1.890em;
-  height: 1.890em;
-  background: url("https://cssanimation.rocks/images/posts/steps/twitter_fave.png") no-repeat;
+    height: 1.890em;
+    background: url("https://cssanimation.rocks/images/posts/steps/twitter_fave.png") no-repeat;
     background-position: -0.422em 0;
     cursor: pointer;
 }
-.like{
-  width: 3.046em;
-  height: 3.046em;
-  background: url("https://abs.twimg.com/a/1446542199/img/t1/web_heart_animation.png") no-repeat;
-    background-position: -20px;
+.like {
+    width: 3.046em;
+    height: 3.046em;
+    background: url("https://abs.twimg.com/a/1446542199/img/t1/web_heart_animation.png") no-repeat;
+    background-position:0.25em;
+    /*-20px;*/
     cursor: pointer;
 }
-.anim-like{
-  background-position: -2820px -14px;
-  transition: background 1s steps(28);
+.anim-like {
+    background-position: -60.25em 0.175em;
+    /*14px*/
+    /*2820px*/
+    transition: background 1s steps(28);
 }
-.anim{
-  background-position: -3529px 0;
-  transition: background 1s steps(55);
+.anim {
+    background-position: -43.8em 0;
+    /*-3529px*/
+    transition: background 1s steps(55);
 }
-
 main a {
     color: #6888ad;
     font-family: "Palanquin",
@@ -790,6 +788,3 @@ section img:first-of-type {
     max-width: 100%;
     height: auto;
 }
-
-
-
