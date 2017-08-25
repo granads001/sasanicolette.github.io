@@ -22,8 +22,6 @@ header {
 }
 
 
-
-
 /* zoekbalk: http://codepen.io/CBeghin/pen/HeuiF */
 
 input[type="text"] {
@@ -94,7 +92,8 @@ header nav {
     flex-direction: row;
     text-decoration: none;
 }
- nav ul li a,
+
+nav ul li a,
 ul li {
     display: inline-flex;
     font-family: 'segoe ui';
@@ -112,12 +111,7 @@ ul li {
 }
 
 
-
-
-
-
 /*https://css-tricks.com/text-blocks-over-image/*/
-
 
 main article p,
 main nav p {
@@ -140,7 +134,6 @@ nav h3 {
     font-family: "helvetica";
     font-weight: 100;
 }
-
 
 header form {
     color: white;
@@ -532,42 +525,43 @@ a:hover {
 .clearfix:after {
     clear: both;
 }
-
-
 main section nav {
     display: inline-flex;
 }
 
 /*-------*/
+
 /* aside{
-  display: inline-flex; 
+  display: inline-flex;
 } */
 
 /* https://codepen.io/Kushchenko/pen/xZdVob?depth=everything&limit=all&order=popularity&page=5&q=like+&show_forks=false */
-.star{
-    width: 2.890em;
-  height: 2.890em;
-  background: url("https://cssanimation.rocks/images/posts/steps/twitter_fave.png") no-repeat;
-    background-position: -.984em 0; /*-10px*/
+.star {
+    width: 3.89em;
+    height: 3.89em;
+    background: url("https://cssanimation.rocks/images/posts/steps/twitter_fave.png") no-repeat;
+    background-position: -0.422em 0;
     cursor: pointer;
 }
-.like{
-  width: 3.046em;
-  height: 3.046em;
-  background: url("https://abs.twimg.com/a/1446542199/img/t1/web_heart_animation.png") no-repeat;
-    background-position: 1.156em;/*-20px*/
+.like {
+    width: 8.046em;
+    height: 3.046em;
+    background: url("https://abs.twimg.com/a/1446542199/img/t1/web_heart_animation.png") no-repeat;
+    background-position:0.25em;
+    /*-20px;*/
     cursor: pointer;
 }
-.anim-like{
-  background-position: -2820px -14px;/*-2820px -14px*/
-  transition: background 1s steps(28);
+.anim-like {
+    background-position: -60.25em -1.1em;
+    /*14px*/
+    /*2820px*/
+    transition: background 1s steps(28);
 }
-.anim{
-  background-position: -128.312em 0;/*-3529px*/
-  transition: background 1s steps(55);
+.anim {
+    background-position: -95.8em 0;
+    /*-3529px*/
+    transition: background 1s steps(55);
 }
-
-
 main h1 {
     color: #6888ad;
     font-family: "Palanquin",
@@ -598,8 +592,7 @@ img:nth-of-type(2),
 section img:first-of-type {
     display: none;
 }
-
- @media(min-width: 57em) {
+@media(min-width: 57em) {
     section img:last-of-type {
         display: block;
     }
@@ -616,8 +609,7 @@ section img:first-of-type {
     section img:first-of-type {
         display: block;
     }
-} 
-
+}
 
 /*----------------------------------------FOOTER------------------------------------------*/
 footer {
